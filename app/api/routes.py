@@ -14,6 +14,7 @@ router = APIRouter()
 # OpenRouter API configuration
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
+OPENROUTER_MODEL_NAME="cognitivecomputations/dolphin3.0-r1-mistral-24b:free"
 
 async def generate_summary(text: str) -> Dict:
     """
@@ -39,7 +40,7 @@ async def generate_summary(text: str) -> Dict:
                 OPENROUTER_URL,
                 headers=headers,
                 json={
-                    "model": "cognitivecomputations/dolphin3.0-r1-mistral-24b:free",
+                    "model": OPENROUTER_MODEL_NAME,
                     "messages": [
                         {"role": "system", "content": "You are a medical report analyzer that returns structured JSON only."},
                         {"role": "user", "content": prompt}
@@ -53,6 +54,8 @@ async def generate_summary(text: str) -> Dict:
             
             result = response.json()
             content = result['choices'][0]['message']['content']
+
+            logger.info(f"Raw json form model {OPENROUTER_MODEL_NAME} :  {content}")
             
             try:
                 pattern = r"<think>([^<]*)<\/think>.*```json([^`]*)```"
@@ -65,8 +68,24 @@ async def generate_summary(text: str) -> Dict:
                     json_obj['think'] = meta_str
                 else:
                     json_obj = {'content': content}
+
+                logger.info(f"Generated json form model {OPENROUTER_MODEL_NAME} : {json.dumps(json_obj, indent=4)}")
+
                 
-                logger.info(f"Generated summary: {json.dumps(json_obj, indent=4)}")
+                # clean json object
+                if isinstance(json_obj, dict) and 'content' in json_obj:
+                    content_str = json_obj['content']
+                    # Try to extract JSON from content if it contains JSON code blocks
+                    json_pattern = r"```json\s*([\s\S]*?)\s*```"
+                    json_match = re.search(json_pattern, content_str)
+                    if json_match:
+                        try:
+                            extracted_json = json.loads(json_match.group(1))
+                            json_obj = extracted_json
+                            logger.info("Successfully extracted and parsed JSON from content")
+                        except json.JSONDecodeError:
+                            logger.warning("Found JSON code block but couldn't parse it")
+                
                 return json_obj
                 
             except json.JSONDecodeError as e:

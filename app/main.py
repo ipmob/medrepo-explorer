@@ -1,22 +1,15 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-from dotenv import load_dotenv
 from pathlib import Path
 import os
 
 from app.api.routes import router as api_router
 from app.utils.logger import logger
-
-def setup_environment() -> None:
-    """Initialize environment variables from .env file in root directory."""
-    root_dir = Path(__file__).resolve().parent.parent
-    env_path = root_dir / '.env'
-    load_dotenv(dotenv_path=env_path)
-    logger.info(f"Environment loaded from: {env_path}")
+from app.utils.env import load_environment
 
 # Initialize environment variables
-setup_environment()
+load_environment()
 
 app = FastAPI(
     title="Medical Report Explorer",
