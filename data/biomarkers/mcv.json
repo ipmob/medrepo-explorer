@@ -1,0 +1,263 @@
+{
+    "biomarker": {
+      "_id": "67c951becf6884d40df9a64a",
+      "type": "biomarker",
+      "valueType": "string",
+      "userId": 205195,
+      "testResultUid": "e3bb239a-38e9-4c6c-ac84-2008ce63b638",
+      "biomarkerUid": "87ae538b-d02a-48e8-ad62-f79fe6906dc4",
+      "date": "2025-03-02T18:30:00.000Z",
+      "name": "",
+      "value": 88.4,
+      "original_value": 88.4,
+      "original_name": "Methodology : CPDM\nMCV",
+      "original_unit": "fl",
+      "standard_unit": "fL",
+      "standard_id": 5,
+      "visionId": 25,
+      "standard_unit_id": 42,
+      "unit": "",
+      "original_reference_range": "76 to 96",
+      "reference_range": null,
+      "reference_range_minimum": 76,
+      "reference_range_maximum": 96,
+      "reference_range_unit": null,
+      "explanation_out_of_range": "MCV is within the normal reference range, indicating normal red blood cell size.",
+      "explanation_general": "MCV (Mean Corpuscular Volume) measures the average size of red blood cells and helps in diagnosing types of anemia.",
+      "out_of_range": null,
+      "out_direction": "",
+      "matched": false,
+      "reported": false,
+      "steps": [
+        {
+          "label": "Detecting biomarker",
+          "value": 1,
+          "id": "detected"
+        },
+        {
+          "label": "Extracting biomarker",
+          "value": "MCV",
+          "id": "name"
+        },
+        {
+          "label": "Checking biomarker",
+          "value": "Checked",
+          "id": "check"
+        },
+        {
+          "label": "Making unit readable",
+          "value": "undefined",
+          "id": "value"
+        },
+        {
+          "label": "Making value readable",
+          "value": "fl",
+          "id": "unit"
+        },
+        {
+          "label": "Matching unit",
+          "value": "Name:fL, ID: 42 . \nThe original unit 'fl' is a common abbreviation for femtoliters, which is represented as 'fL' in the standard unit list. MCV (Mean Corpuscular Volume) is typically measured in femtoliters, so 'fL' is the appropriate standard unit."
+        },
+        {
+          "label": "Setting range type",
+          "value": "NumericRange"
+        },
+        {
+          "label": "Setting range",
+          "value": "min:  76.0, max: 96.0",
+          "id": "range"
+        },
+        {
+          "label": "Preparing matching",
+          "value": "Ready for matching"
+        },
+        {
+          "label": "Matching biomarker",
+          "value": 5
+        },
+        {
+          "label": "Rechecking unit..",
+          "value": "First step unit match was correct.",
+          "id": "final"
+        },
+        {
+          "label": "Adding data",
+          "value": "Added"
+        },
+        {
+          "label": "Finishing",
+          "value": "Done"
+        }
+      ],
+      "hex_value": null,
+      "issue_detected": false,
+      "issue": "The unit 'fl' (femtoliters) is a standard unit for measuring Mean Corpuscular Volume (MCV), which is commonly used in hematology. The provided value of 88.4 fl falls within the typical range for MCV, which is generally between 76 to 96 fl. Therefore, the unit and reference range are highly likely to be accurate, leading to a high total probability.",
+      "nrr_type": "NumericRange",
+      "createdAt": "2025-03-06T07:41:50.061Z",
+      "updatedAt": "2025-03-06T07:46:53.944Z",
+      "__v": 11,
+      "biomarkersDynamics": [
+        {
+          "_id": "67c951becf6884d40df9a64a",
+          "type": "biomarker",
+          "valueType": "string",
+          "userId": 205195,
+          "testResultUid": "e3bb239a-38e9-4c6c-ac84-2008ce63b638",
+          "biomarkerUid": "87ae538b-d02a-48e8-ad62-f79fe6906dc4",
+          "date": "2025-03-02T18:30:00.000Z",
+          "name": "",
+          "value": 88.4,
+          "original_value": 88.4,
+          "original_name": "Methodology : CPDM\nMCV",
+          "original_unit": "fl",
+          "standard_unit": "fL",
+          "standard_id": 5,
+          "visionId": 25,
+          "standard_unit_id": 42,
+          "unit": "",
+          "original_reference_range": "76 to 96",
+          "reference_range": null,
+          "reference_range_minimum": 76,
+          "reference_range_maximum": 96,
+          "reference_range_unit": null,
+          "explanation_out_of_range": "MCV is within the normal reference range, indicating normal red blood cell size.",
+          "explanation_general": "MCV (Mean Corpuscular Volume) measures the average size of red blood cells and helps in diagnosing types of anemia.",
+          "out_of_range": null,
+          "out_direction": "",
+          "matched": false,
+          "reported": false,
+          "steps": [
+            {
+              "label": "Detecting biomarker",
+              "value": 1,
+              "id": "detected"
+            },
+            {
+              "label": "Extracting biomarker",
+              "value": "MCV",
+              "id": "name"
+            },
+            {
+              "label": "Checking biomarker",
+              "value": "Checked",
+              "id": "check"
+            },
+            {
+              "label": "Making unit readable",
+              "value": "undefined",
+              "id": "value"
+            },
+            {
+              "label": "Making value readable",
+              "value": "fl",
+              "id": "unit"
+            },
+            {
+              "label": "Matching unit",
+              "value": "Name:fL, ID: 42 . \nThe original unit 'fl' is a common abbreviation for femtoliters, which is represented as 'fL' in the standard unit list. MCV (Mean Corpuscular Volume) is typically measured in femtoliters, so 'fL' is the appropriate standard unit."
+            },
+            {
+              "label": "Setting range type",
+              "value": "NumericRange"
+            },
+            {
+              "label": "Setting range",
+              "value": "min:  76.0, max: 96.0",
+              "id": "range"
+            },
+            {
+              "label": "Preparing matching",
+              "value": "Ready for matching"
+            },
+            {
+              "label": "Matching biomarker",
+              "value": 5
+            },
+            {
+              "label": "Rechecking unit..",
+              "value": "First step unit match was correct.",
+              "id": "final"
+            },
+            {
+              "label": "Adding data",
+              "value": "Added"
+            },
+            {
+              "label": "Finishing",
+              "value": "Done"
+            }
+          ],
+          "hex_value": null,
+          "issue_detected": false,
+          "issue": "The unit 'fl' (femtoliters) is a standard unit for measuring Mean Corpuscular Volume (MCV), which is commonly used in hematology. The provided value of 88.4 fl falls within the typical range for MCV, which is generally between 76 to 96 fl. Therefore, the unit and reference range are highly likely to be accurate, leading to a high total probability.",
+          "nrr_type": "NumericRange",
+          "createdAt": "2025-03-06T07:41:50.061Z",
+          "updatedAt": "2025-03-06T07:46:53.944Z",
+          "__v": 11
+        }
+      ],
+      "globalBiomarker": {
+        "_id": "66ac9f1dbe3d908c5f523c09",
+        "id": 5,
+        "title": "MCV",
+        "synonyms": [
+          {
+            "_id": "67c9cb29cf6884d40dfb23c1",
+            "title": "Mean corpuscular volume",
+            "language": "EN",
+            "id": "67c9cb29cf6884d40dfb23c1"
+          }
+        ],
+        "possibleValueMax": 150,
+        "possibleValueMin": 50,
+        "isAllowAutounit": true,
+        "biomaterialId": 2,
+        "displayCategoryId": 79,
+        "pregnancyCorrelation": 0,
+        "sortOrder": 3914,
+        "isPaid": false,
+        "articleId": 5,
+        "unitsFactors": [
+          [
+            42,
+            1
+          ],
+          [
+            90,
+            1
+          ]
+        ],
+        "availableUnits": {
+          "unitId42": {
+            "id": 42,
+            "coefficient": 1
+          },
+          "unitId90": {
+            "id": 90,
+            "coefficient": 1
+          }
+        },
+        "unitIds": [
+          42,
+          90
+        ],
+        "standard_id": 5,
+        "units": [
+          {
+            "_id": "66f2fcd1fc79fb27d79f765c",
+            "id": 42,
+            "title": "fL",
+            "synonymsString": "fL",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f7684",
+            "id": 90,
+            "title": "mcm³",
+            "synonymsString": "mcm³, um³, µm³",
+            "valueType": 1
+          }
+        ]
+      }
+    }
+  }

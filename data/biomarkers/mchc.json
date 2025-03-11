@@ -1,0 +1,378 @@
+{
+    "biomarker": {
+      "_id": "67c951becf6884d40df9a650",
+      "type": "biomarker",
+      "valueType": "string",
+      "userId": 205195,
+      "testResultUid": "e3bb239a-38e9-4c6c-ac84-2008ce63b638",
+      "biomarkerUid": "97c4355e-f2d0-43ec-9ca4-f0df7e2fa482",
+      "date": "2025-03-02T18:30:00.000Z",
+      "name": "",
+      "value": 33.4,
+      "original_value": 33.4,
+      "original_name": "MCHC Methodology: CPDM",
+      "original_unit": "gm/dl",
+      "standard_unit": "g/dL",
+      "standard_id": 81,
+      "visionId": 35,
+      "standard_unit_id": 21,
+      "unit": "",
+      "original_reference_range": "30 to 35",
+      "reference_range": null,
+      "reference_range_minimum": 30,
+      "reference_range_maximum": 35,
+      "reference_range_unit": null,
+      "explanation_out_of_range": null,
+      "explanation_general": "MCHC stands for Mean Corpuscular Hemoglobin Concentration. It measures the average concentration of hemoglobin in a given volume of red blood cells. It helps in diagnosing and classifying types of anemia.",
+      "out_of_range": null,
+      "out_direction": "",
+      "matched": false,
+      "reported": false,
+      "steps": [
+        {
+          "label": "Detecting biomarker",
+          "value": 1,
+          "id": "detected"
+        },
+        {
+          "label": "Extracting biomarker",
+          "value": "MCHC",
+          "id": "name"
+        },
+        {
+          "label": "Checking biomarker",
+          "value": "Checked",
+          "id": "check"
+        },
+        {
+          "label": "Making unit readable",
+          "value": "undefined",
+          "id": "value"
+        },
+        {
+          "label": "Making value readable",
+          "value": "gm/dl",
+          "id": "unit"
+        },
+        {
+          "label": "Matching unit",
+          "value": "Name:g/dL, ID: 21 . \nThe original unit 'gm/dl' is a common representation of 'g/dL', which is a standard unit for measuring concentration in blood tests, particularly for MCHC (Mean Corpuscular Hemoglobin Concentration)."
+        },
+        {
+          "label": "Setting range type",
+          "value": "NumericRange"
+        },
+        {
+          "label": "Setting range",
+          "value": "min:  30.0, max: 35.0",
+          "id": "range"
+        },
+        {
+          "label": "Preparing matching",
+          "value": "Ready for matching"
+        },
+        {
+          "label": "Matching biomarker",
+          "value": 81
+        },
+        {
+          "label": "Rechecking unit..",
+          "value": "First step unit match was correct.",
+          "id": "final"
+        },
+        {
+          "label": "Adding data",
+          "value": "Added"
+        },
+        {
+          "label": "Finishing",
+          "value": "Done"
+        }
+      ],
+      "hex_value": null,
+      "issue_detected": false,
+      "issue": "The unit 'gm/dl' for MCHC (Mean Corpuscular Hemoglobin Concentration) is commonly used and accurate, hence a high probability of 90%. The provided value of 33.4 is within the normal reference range of 30 to 35, giving it a value probability of 85%. The reference range itself is standard for MCHC, leading to a high range probability of 95%. Overall, the total probability is 90% based on these assessments.",
+      "nrr_type": "NumericRange",
+      "createdAt": "2025-03-06T07:41:50.091Z",
+      "updatedAt": "2025-03-06T07:46:53.971Z",
+      "__v": 11,
+      "biomarkersDynamics": [
+        {
+          "_id": "67c951becf6884d40df9a650",
+          "type": "biomarker",
+          "valueType": "string",
+          "userId": 205195,
+          "testResultUid": "e3bb239a-38e9-4c6c-ac84-2008ce63b638",
+          "biomarkerUid": "97c4355e-f2d0-43ec-9ca4-f0df7e2fa482",
+          "date": "2025-03-02T18:30:00.000Z",
+          "name": "",
+          "value": 33.4,
+          "original_value": 33.4,
+          "original_name": "MCHC Methodology: CPDM",
+          "original_unit": "gm/dl",
+          "standard_unit": "g/dL",
+          "standard_id": 81,
+          "visionId": 35,
+          "standard_unit_id": 21,
+          "unit": "",
+          "original_reference_range": "30 to 35",
+          "reference_range": null,
+          "reference_range_minimum": 30,
+          "reference_range_maximum": 35,
+          "reference_range_unit": null,
+          "explanation_out_of_range": null,
+          "explanation_general": "MCHC stands for Mean Corpuscular Hemoglobin Concentration. It measures the average concentration of hemoglobin in a given volume of red blood cells. It helps in diagnosing and classifying types of anemia.",
+          "out_of_range": null,
+          "out_direction": "",
+          "matched": false,
+          "reported": false,
+          "steps": [
+            {
+              "label": "Detecting biomarker",
+              "value": 1,
+              "id": "detected"
+            },
+            {
+              "label": "Extracting biomarker",
+              "value": "MCHC",
+              "id": "name"
+            },
+            {
+              "label": "Checking biomarker",
+              "value": "Checked",
+              "id": "check"
+            },
+            {
+              "label": "Making unit readable",
+              "value": "undefined",
+              "id": "value"
+            },
+            {
+              "label": "Making value readable",
+              "value": "gm/dl",
+              "id": "unit"
+            },
+            {
+              "label": "Matching unit",
+              "value": "Name:g/dL, ID: 21 . \nThe original unit 'gm/dl' is a common representation of 'g/dL', which is a standard unit for measuring concentration in blood tests, particularly for MCHC (Mean Corpuscular Hemoglobin Concentration)."
+            },
+            {
+              "label": "Setting range type",
+              "value": "NumericRange"
+            },
+            {
+              "label": "Setting range",
+              "value": "min:  30.0, max: 35.0",
+              "id": "range"
+            },
+            {
+              "label": "Preparing matching",
+              "value": "Ready for matching"
+            },
+            {
+              "label": "Matching biomarker",
+              "value": 81
+            },
+            {
+              "label": "Rechecking unit..",
+              "value": "First step unit match was correct.",
+              "id": "final"
+            },
+            {
+              "label": "Adding data",
+              "value": "Added"
+            },
+            {
+              "label": "Finishing",
+              "value": "Done"
+            }
+          ],
+          "hex_value": null,
+          "issue_detected": false,
+          "issue": "The unit 'gm/dl' for MCHC (Mean Corpuscular Hemoglobin Concentration) is commonly used and accurate, hence a high probability of 90%. The provided value of 33.4 is within the normal reference range of 30 to 35, giving it a value probability of 85%. The reference range itself is standard for MCHC, leading to a high range probability of 95%. Overall, the total probability is 90% based on these assessments.",
+          "nrr_type": "NumericRange",
+          "createdAt": "2025-03-06T07:41:50.091Z",
+          "updatedAt": "2025-03-06T07:46:53.971Z",
+          "__v": 11
+        }
+      ],
+      "globalBiomarker": {
+        "_id": "66ac9f1dbe3d908c5f523c55",
+        "id": 81,
+        "title": "MCHC",
+        "synonyms": [
+          {
+            "_id": "67c9cb90cf6884d40dfb2459",
+            "title": "Mean corpuscular hemoglobin concentration",
+            "language": "EN",
+            "id": "67c9cb90cf6884d40dfb2459"
+          },
+          {
+            "_id": "67c9cb90cf6884d40dfb245a",
+            "title": "CHCM",
+            "language": "EN",
+            "id": "67c9cb90cf6884d40dfb245a"
+          }
+        ],
+        "possibleValueMax": 24823000,
+        "possibleValueMin": 16756000,
+        "isAllowAutounit": true,
+        "biomaterialId": 2,
+        "displayCategoryId": 79,
+        "pregnancyCorrelation": 0,
+        "sortOrder": 3912,
+        "isPaid": true,
+        "articleId": 81,
+        "unitsFactors": [
+          [
+            21,
+            620578
+          ],
+          [
+            22,
+            62057.8
+          ],
+          [
+            30,
+            1000000
+          ],
+          [
+            1,
+            620578
+          ],
+          [
+            26,
+            1000
+          ],
+          [
+            85,
+            62057.8
+          ],
+          [
+            28,
+            620.578
+          ],
+          [
+            144,
+            620578
+          ],
+          [
+            164,
+            620578
+          ]
+        ],
+        "availableUnits": {
+          "unitId21": {
+            "id": 21,
+            "coefficient": 620578
+          },
+          "unitId22": {
+            "id": 22,
+            "coefficient": 62057.8
+          },
+          "unitId30": {
+            "id": 30,
+            "coefficient": 1000000
+          },
+          "unitId1": {
+            "id": 1,
+            "coefficient": 620578
+          },
+          "unitId26": {
+            "id": 26,
+            "coefficient": 1000
+          },
+          "unitId85": {
+            "id": 85,
+            "coefficient": 62057.8
+          },
+          "unitId28": {
+            "id": 28,
+            "coefficient": 620.578
+          },
+          "unitId144": {
+            "id": 144,
+            "coefficient": 620578
+          },
+          "unitId164": {
+            "id": 164,
+            "coefficient": 620578
+          }
+        },
+        "unitIds": [
+          21,
+          22,
+          30,
+          1,
+          26,
+          85,
+          28,
+          144,
+          164
+        ],
+        "standard_id": 81,
+        "units": [
+          {
+            "_id": "66f2fcd1fc79fb27d79f764a",
+            "id": 21,
+            "title": "g/dL",
+            "synonymsString": "g/dL",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f764b",
+            "id": 22,
+            "title": "g/L",
+            "synonymsString": "g/L",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f7652",
+            "id": 30,
+            "title": "mmol/L",
+            "synonymsString": "mmol/L,  mM",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f763b",
+            "id": 1,
+            "title": "%",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f764e",
+            "id": 26,
+            "title": "mcmol/L",
+            "synonymsString": "mcmol/L,  µmol/L,  umol/L, mcM",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f7680",
+            "id": 85,
+            "title": "mg/mL",
+            "synonymsString": "mg/mL",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f7650",
+            "id": 28,
+            "title": "mg/dL",
+            "synonymsString": "mg/dL",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f76b7",
+            "id": 144,
+            "title": "g/100mL",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f76cb",
+            "id": 164,
+            "title": "g%",
+            "valueType": 1
+          }
+        ]
+      }
+    }
+  }

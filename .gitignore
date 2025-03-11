@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Poetry
+.venv/
+poetry.lock
+
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# Environment variables
+.env
+.env.local
+
+# IDE and Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs and Debugging
+logs/
+*.log
+*.out
+*.err
+
+# FastAPI specific
+instance/
+*.sqlite3
+*.db
+
+# React (Frontend)
+node_modules/
+.next/
+.next/cache/
+*.env.local
+
+# Testing and Coverage
+.coverage
+htmlcov/
+pytest_cache/
+*.pytest_cache/
+
+# Docker
+*.log
+**/docker-compose.override.yml
+
+# Project-specific
+*.pdf
+*.log
+
+# scrapped data for rag
+data/**/*.py
+.cursorignore
+.READMD.md
+

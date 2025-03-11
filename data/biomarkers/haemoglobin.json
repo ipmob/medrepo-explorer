@@ -1,0 +1,310 @@
+{
+    "biomarker": {
+      "_id": "67c951becf6884d40df9a641",
+      "type": "biomarker",
+      "valueType": "string",
+      "userId": 205195,
+      "testResultUid": "e3bb239a-38e9-4c6c-ac84-2008ce63b638",
+      "biomarkerUid": "ef445e8f-6202-41b0-8e13-1f7528036ccb",
+      "date": "2025-03-02T18:30:00.000Z",
+      "name": "",
+      "value": 14.8,
+      "original_value": 14.8,
+      "original_name": "HAEMOGLOBIN\n(HB) Methodology : SLS Photometry",
+      "original_unit": "gm/dl",
+      "standard_unit": "g/dL",
+      "standard_id": 190,
+      "visionId": 10,
+      "standard_unit_id": 21,
+      "unit": "",
+      "original_reference_range": "13 to 18 gm/dl",
+      "reference_range": null,
+      "reference_range_minimum": 13,
+      "reference_range_maximum": 18,
+      "reference_range_unit": null,
+      "explanation_out_of_range": "Haemoglobin levels below the normal range may indicate anemia, while levels above the normal range could suggest polycythemia or dehydration.",
+      "explanation_general": "Haemoglobin is a protein in red blood cells that carries oxygen throughout the body. It is essential for transporting oxygen from the lungs to the rest of the body and returning carbon dioxide from the body to the lungs to be exhaled.",
+      "out_of_range": null,
+      "out_direction": "",
+      "matched": false,
+      "reported": false,
+      "steps": [
+        {
+          "label": "Detecting biomarker",
+          "value": 1,
+          "id": "detected"
+        },
+        {
+          "label": "Extracting biomarker",
+          "value": "HAEMOGLOBIN (HB)",
+          "id": "name"
+        },
+        {
+          "label": "Checking biomarker",
+          "value": "Checked",
+          "id": "check"
+        },
+        {
+          "label": "Making unit readable",
+          "value": "undefined",
+          "id": "value"
+        },
+        {
+          "label": "Making value readable",
+          "value": "gm/dl",
+          "id": "unit"
+        },
+        {
+          "label": "Matching unit",
+          "value": "Name:g/dL, ID: 21 . \nThe original unit 'gm/dl' is a common representation for grams per deciliter, which is equivalent to 'g/dL'. The standard unit 'g/dL' is used for measuring hemoglobin concentration in blood."
+        },
+        {
+          "label": "Setting range type",
+          "value": "NumericRange"
+        },
+        {
+          "label": "Setting range",
+          "value": "min:  13.0, max: 18.0",
+          "id": "range"
+        },
+        {
+          "label": "Preparing matching",
+          "value": "Ready for matching"
+        },
+        {
+          "label": "Matching biomarker",
+          "value": 190
+        },
+        {
+          "label": "Rechecking unit..",
+          "value": "First step unit match was correct.",
+          "id": "final"
+        },
+        {
+          "label": "Adding data",
+          "value": "Added"
+        },
+        {
+          "label": "Finishing",
+          "value": "Done"
+        }
+      ],
+      "hex_value": null,
+      "issue_detected": false,
+      "issue": "The unit 'gm/dl' is a standard unit for measuring hemoglobin levels in blood, which supports a high accuracy probability. The value of 14.8 gm/dl falls within the normal reference range of 13 to 18 gm/dl, indicating a high probability for the value's accuracy. The reference range itself is consistent with established medical guidelines for hemoglobin levels in adults, leading to a high probability for its accuracy as well. Overall, the combination of these factors results in a total accuracy probability of 93%.",
+      "nrr_type": "NumericRange",
+      "createdAt": "2025-03-06T07:41:50.017Z",
+      "updatedAt": "2025-03-06T07:46:53.902Z",
+      "__v": 11,
+      "biomarkersDynamics": [
+        {
+          "_id": "67c951becf6884d40df9a641",
+          "type": "biomarker",
+          "valueType": "string",
+          "userId": 205195,
+          "testResultUid": "e3bb239a-38e9-4c6c-ac84-2008ce63b638",
+          "biomarkerUid": "ef445e8f-6202-41b0-8e13-1f7528036ccb",
+          "date": "2025-03-02T18:30:00.000Z",
+          "name": "",
+          "value": 14.8,
+          "original_value": 14.8,
+          "original_name": "HAEMOGLOBIN\n(HB) Methodology : SLS Photometry",
+          "original_unit": "gm/dl",
+          "standard_unit": "g/dL",
+          "standard_id": 190,
+          "visionId": 10,
+          "standard_unit_id": 21,
+          "unit": "",
+          "original_reference_range": "13 to 18 gm/dl",
+          "reference_range": null,
+          "reference_range_minimum": 13,
+          "reference_range_maximum": 18,
+          "reference_range_unit": null,
+          "explanation_out_of_range": "Haemoglobin levels below the normal range may indicate anemia, while levels above the normal range could suggest polycythemia or dehydration.",
+          "explanation_general": "Haemoglobin is a protein in red blood cells that carries oxygen throughout the body. It is essential for transporting oxygen from the lungs to the rest of the body and returning carbon dioxide from the body to the lungs to be exhaled.",
+          "out_of_range": null,
+          "out_direction": "",
+          "matched": false,
+          "reported": false,
+          "steps": [
+            {
+              "label": "Detecting biomarker",
+              "value": 1,
+              "id": "detected"
+            },
+            {
+              "label": "Extracting biomarker",
+              "value": "HAEMOGLOBIN (HB)",
+              "id": "name"
+            },
+            {
+              "label": "Checking biomarker",
+              "value": "Checked",
+              "id": "check"
+            },
+            {
+              "label": "Making unit readable",
+              "value": "undefined",
+              "id": "value"
+            },
+            {
+              "label": "Making value readable",
+              "value": "gm/dl",
+              "id": "unit"
+            },
+            {
+              "label": "Matching unit",
+              "value": "Name:g/dL, ID: 21 . \nThe original unit 'gm/dl' is a common representation for grams per deciliter, which is equivalent to 'g/dL'. The standard unit 'g/dL' is used for measuring hemoglobin concentration in blood."
+            },
+            {
+              "label": "Setting range type",
+              "value": "NumericRange"
+            },
+            {
+              "label": "Setting range",
+              "value": "min:  13.0, max: 18.0",
+              "id": "range"
+            },
+            {
+              "label": "Preparing matching",
+              "value": "Ready for matching"
+            },
+            {
+              "label": "Matching biomarker",
+              "value": 190
+            },
+            {
+              "label": "Rechecking unit..",
+              "value": "First step unit match was correct.",
+              "id": "final"
+            },
+            {
+              "label": "Adding data",
+              "value": "Added"
+            },
+            {
+              "label": "Finishing",
+              "value": "Done"
+            }
+          ],
+          "hex_value": null,
+          "issue_detected": false,
+          "issue": "The unit 'gm/dl' is a standard unit for measuring hemoglobin levels in blood, which supports a high accuracy probability. The value of 14.8 gm/dl falls within the normal reference range of 13 to 18 gm/dl, indicating a high probability for the value's accuracy. The reference range itself is consistent with established medical guidelines for hemoglobin levels in adults, leading to a high probability for its accuracy as well. Overall, the combination of these factors results in a total accuracy probability of 93%.",
+          "nrr_type": "NumericRange",
+          "createdAt": "2025-03-06T07:41:50.017Z",
+          "updatedAt": "2025-03-06T07:46:53.902Z",
+          "__v": 11
+        }
+      ],
+      "globalBiomarker": {
+        "_id": "66ac9f1dbe3d908c5f523cb6",
+        "id": 190,
+        "title": "Hemoglobin, blood",
+        "synonyms": [
+          {
+            "_id": "67c9ca3bcf6884d40dfb2239",
+            "title": "HGB, blood",
+            "language": "EN",
+            "id": "67c9ca3bcf6884d40dfb2239"
+          }
+        ],
+        "possibleValueMax": 11791000,
+        "possibleValueMin": 4344000,
+        "isAllowAutounit": true,
+        "biomaterialId": 2,
+        "substanceId": 130,
+        "displayCategoryId": 79,
+        "pregnancyCorrelation": 0,
+        "sortOrder": 3919,
+        "isPaid": true,
+        "articleId": 190,
+        "unitsFactors": [
+          [
+            21,
+            620578
+          ],
+          [
+            22,
+            62057.8
+          ],
+          [
+            30,
+            1000000
+          ],
+          [
+            144,
+            620578
+          ],
+          [
+            164,
+            620578
+          ]
+        ],
+        "availableUnits": {
+          "unitId21": {
+            "id": 21,
+            "coefficient": 620578
+          },
+          "unitId22": {
+            "id": 22,
+            "coefficient": 62057.8
+          },
+          "unitId30": {
+            "id": 30,
+            "coefficient": 1000000
+          },
+          "unitId144": {
+            "id": 144,
+            "coefficient": 620578
+          },
+          "unitId164": {
+            "id": 164,
+            "coefficient": 620578
+          }
+        },
+        "unitIds": [
+          21,
+          22,
+          30,
+          144,
+          164
+        ],
+        "standard_id": 190,
+        "units": [
+          {
+            "_id": "66f2fcd1fc79fb27d79f764a",
+            "id": 21,
+            "title": "g/dL",
+            "synonymsString": "g/dL",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f764b",
+            "id": 22,
+            "title": "g/L",
+            "synonymsString": "g/L",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f7652",
+            "id": 30,
+            "title": "mmol/L",
+            "synonymsString": "mmol/L,  mM",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f76b7",
+            "id": 144,
+            "title": "g/100mL",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f76cb",
+            "id": 164,
+            "title": "g%",
+            "valueType": 1
+          }
+        ]
+      }
+    }
+  }

@@ -1,0 +1,284 @@
+{
+    "biomarker": {
+      "_id": "67c951becf6884d40df9a653",
+      "type": "biomarker",
+      "valueType": "string",
+      "userId": 205195,
+      "testResultUid": "e3bb239a-38e9-4c6c-ac84-2008ce63b638",
+      "biomarkerUid": "482c9d73-0dce-4dcb-bf24-1a41155fdff7",
+      "date": "2025-03-02T18:30:00.000Z",
+      "name": "",
+      "value": 13.2,
+      "original_value": 13.2,
+      "original_name": "RDW-CV Methodology: CPDM",
+      "original_unit": "%",
+      "standard_unit": "%",
+      "standard_id": 30,
+      "visionId": 40,
+      "standard_unit_id": 1,
+      "unit": "",
+      "original_reference_range": "10 to 15 %",
+      "reference_range": null,
+      "reference_range_minimum": 10,
+      "reference_range_maximum": 15,
+      "reference_range_unit": null,
+      "explanation_out_of_range": "RDW-CV is within the normal range, indicating normal variation in red blood cell size.",
+      "explanation_general": "RDW-CV (Red Cell Distribution Width - Coefficient of Variation) measures the variation in size of red blood cells. It helps in diagnosing different types of anemia and other medical conditions.",
+      "out_of_range": null,
+      "out_direction": "",
+      "matched": false,
+      "reported": false,
+      "steps": [
+        {
+          "label": "Detecting biomarker",
+          "value": 1,
+          "id": "detected"
+        },
+        {
+          "label": "Extracting biomarker",
+          "value": "RDW-CV",
+          "id": "name"
+        },
+        {
+          "label": "Checking biomarker",
+          "value": "Checked",
+          "id": "check"
+        },
+        {
+          "label": "Making unit readable",
+          "value": "undefined",
+          "id": "value"
+        },
+        {
+          "label": "Making value readable",
+          "value": "%",
+          "id": "unit"
+        },
+        {
+          "label": "Matching unit",
+          "value": "Name:%, ID: 1 . \nThe original unit for RDW-CV is '%', which is a standard unit for expressing percentage values. RDW-CV (Red Cell Distribution Width - Coefficient of Variation) is typically measured in percentage to indicate the variation in size of red blood cells."
+        },
+        {
+          "label": "Setting range type",
+          "value": "NumericRange"
+        },
+        {
+          "label": "Setting range",
+          "value": "min:  10.0, max: 15.0",
+          "id": "range"
+        },
+        {
+          "label": "Preparing matching",
+          "value": "Ready for matching"
+        },
+        {
+          "label": "Matching biomarker",
+          "value": 30
+        },
+        {
+          "label": "Rechecking unit..",
+          "value": "First step unit match was correct.",
+          "id": "final"
+        },
+        {
+          "label": "Adding data",
+          "value": "Added"
+        },
+        {
+          "label": "Finishing",
+          "value": "Done"
+        }
+      ],
+      "hex_value": null,
+      "issue_detected": false,
+      "issue": "The unit '%' is standard for reporting RDW-CV, leading to a high unit probability. The value of 13.2% falls within the typical range for RDW-CV, which is generally between 10% and 15%, giving it a high value probability. The reference range of 10 to 15% is consistent with established medical guidelines, supporting a high range probability. Overall, the combination of these factors results in a total probability of 93% for the accuracy of the provided biomarker data.",
+      "nrr_type": "NumericRange",
+      "createdAt": "2025-03-06T07:41:50.107Z",
+      "updatedAt": "2025-03-06T07:46:53.985Z",
+      "__v": 11,
+      "biomarkersDynamics": [
+        {
+          "_id": "67c951becf6884d40df9a653",
+          "type": "biomarker",
+          "valueType": "string",
+          "userId": 205195,
+          "testResultUid": "e3bb239a-38e9-4c6c-ac84-2008ce63b638",
+          "biomarkerUid": "482c9d73-0dce-4dcb-bf24-1a41155fdff7",
+          "date": "2025-03-02T18:30:00.000Z",
+          "name": "",
+          "value": 13.2,
+          "original_value": 13.2,
+          "original_name": "RDW-CV Methodology: CPDM",
+          "original_unit": "%",
+          "standard_unit": "%",
+          "standard_id": 30,
+          "visionId": 40,
+          "standard_unit_id": 1,
+          "unit": "",
+          "original_reference_range": "10 to 15 %",
+          "reference_range": null,
+          "reference_range_minimum": 10,
+          "reference_range_maximum": 15,
+          "reference_range_unit": null,
+          "explanation_out_of_range": "RDW-CV is within the normal range, indicating normal variation in red blood cell size.",
+          "explanation_general": "RDW-CV (Red Cell Distribution Width - Coefficient of Variation) measures the variation in size of red blood cells. It helps in diagnosing different types of anemia and other medical conditions.",
+          "out_of_range": null,
+          "out_direction": "",
+          "matched": false,
+          "reported": false,
+          "steps": [
+            {
+              "label": "Detecting biomarker",
+              "value": 1,
+              "id": "detected"
+            },
+            {
+              "label": "Extracting biomarker",
+              "value": "RDW-CV",
+              "id": "name"
+            },
+            {
+              "label": "Checking biomarker",
+              "value": "Checked",
+              "id": "check"
+            },
+            {
+              "label": "Making unit readable",
+              "value": "undefined",
+              "id": "value"
+            },
+            {
+              "label": "Making value readable",
+              "value": "%",
+              "id": "unit"
+            },
+            {
+              "label": "Matching unit",
+              "value": "Name:%, ID: 1 . \nThe original unit for RDW-CV is '%', which is a standard unit for expressing percentage values. RDW-CV (Red Cell Distribution Width - Coefficient of Variation) is typically measured in percentage to indicate the variation in size of red blood cells."
+            },
+            {
+              "label": "Setting range type",
+              "value": "NumericRange"
+            },
+            {
+              "label": "Setting range",
+              "value": "min:  10.0, max: 15.0",
+              "id": "range"
+            },
+            {
+              "label": "Preparing matching",
+              "value": "Ready for matching"
+            },
+            {
+              "label": "Matching biomarker",
+              "value": 30
+            },
+            {
+              "label": "Rechecking unit..",
+              "value": "First step unit match was correct.",
+              "id": "final"
+            },
+            {
+              "label": "Adding data",
+              "value": "Added"
+            },
+            {
+              "label": "Finishing",
+              "value": "Done"
+            }
+          ],
+          "hex_value": null,
+          "issue_detected": false,
+          "issue": "The unit '%' is standard for reporting RDW-CV, leading to a high unit probability. The value of 13.2% falls within the typical range for RDW-CV, which is generally between 10% and 15%, giving it a high value probability. The reference range of 10 to 15% is consistent with established medical guidelines, supporting a high range probability. Overall, the combination of these factors results in a total probability of 93% for the accuracy of the provided biomarker data.",
+          "nrr_type": "NumericRange",
+          "createdAt": "2025-03-06T07:41:50.107Z",
+          "updatedAt": "2025-03-06T07:46:53.985Z",
+          "__v": 11
+        }
+      ],
+      "globalBiomarker": {
+        "_id": "66ac9f1dbe3d908c5f523c22",
+        "id": 30,
+        "title": "RDW",
+        "synonyms": [
+          {
+            "_id": "67c9cbedcf6884d40dfb24c3",
+            "title": "Red blood cell distribution width",
+            "language": "EN",
+            "id": "67c9cbedcf6884d40dfb24c3"
+          },
+          {
+            "_id": "67c9cbedcf6884d40dfb24c4",
+            "title": "RDW-CV, %",
+            "language": "EN",
+            "id": "67c9cbedcf6884d40dfb24c4"
+          }
+        ],
+        "possibleValueMax": 21,
+        "possibleValueMin": 6,
+        "isAllowAutounit": true,
+        "biomaterialId": 2,
+        "displayCategoryId": 79,
+        "pregnancyCorrelation": 1,
+        "sortOrder": 3909,
+        "isPaid": true,
+        "articleId": 30,
+        "unitsFactors": [
+          [
+            1,
+            1
+          ],
+          [
+            51,
+            100
+          ],
+          [
+            2,
+            100
+          ]
+        ],
+        "availableUnits": {
+          "unitId1": {
+            "id": 1,
+            "coefficient": 1
+          },
+          "unitId51": {
+            "id": 51,
+            "coefficient": 100
+          },
+          "unitId2": {
+            "id": 2,
+            "coefficient": 100
+          }
+        },
+        "unitIds": [
+          1,
+          51,
+          2
+        ],
+        "standard_id": 30,
+        "units": [
+          {
+            "_id": "66f2fcd1fc79fb27d79f763b",
+            "id": 1,
+            "title": "%",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f7665",
+            "id": 51,
+            "title": "×100%",
+            "synonymsString": "×100%",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f763c",
+            "id": 2,
+            "title": "L/L",
+            "synonymsString": "L/L",
+            "valueType": 1
+          }
+        ]
+      }
+    }
+  }

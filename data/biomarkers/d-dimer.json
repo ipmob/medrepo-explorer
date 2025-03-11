@@ -1,0 +1,296 @@
+{
+    "biomarker": {
+      "_id": "67c951becf6884d40df9a63f",
+      "type": "biomarker",
+      "valueType": "string",
+      "userId": 205195,
+      "testResultUid": "e3bb239a-38e9-4c6c-ac84-2008ce63b638",
+      "biomarkerUid": "dea32a1c-af6e-4cb0-bc9d-6df9e508fc61",
+      "date": "2025-03-02T18:30:00.000Z",
+      "name": "",
+      "value": 368.33,
+      "original_value": 368.33,
+      "original_name": "D-DIMER (MINI\nVIDAS) Methodology : ELFA",
+      "original_unit": "ng/ml",
+      "standard_unit": "ng/mL",
+      "standard_id": 228,
+      "visionId": 5,
+      "standard_unit_id": 56,
+      "unit": "",
+      "original_reference_range": "Upto 500",
+      "reference_range": null,
+      "reference_range_minimum": null,
+      "reference_range_maximum": 500,
+      "reference_range_unit": null,
+      "explanation_out_of_range": "A D-Dimer level within the reference range suggests that there is no significant clot formation and breakdown in the body.",
+      "explanation_general": "D-Dimer is a protein fragment that is produced when a blood clot dissolves in the body. It is often measured to help diagnose or rule out conditions related to abnormal clotting, such as deep vein thrombosis or pulmonary embolism.",
+      "out_of_range": null,
+      "out_direction": "",
+      "matched": false,
+      "reported": false,
+      "steps": [
+        {
+          "label": "Detecting biomarker",
+          "value": 1,
+          "id": "detected"
+        },
+        {
+          "label": "Extracting biomarker",
+          "value": "D-DIMER (MINI VIDAS)",
+          "id": "name"
+        },
+        {
+          "label": "Checking biomarker",
+          "value": "Checked",
+          "id": "check"
+        },
+        {
+          "label": "Making unit readable",
+          "value": "undefined",
+          "id": "value"
+        },
+        {
+          "label": "Making value readable",
+          "value": "ng/ml",
+          "id": "unit"
+        },
+        {
+          "label": "Matching unit",
+          "value": "Name:ng/mL, ID: 56 . \nThe original unit 'ng/ml' is equivalent to 'ng/mL', which is a standard unit for measuring concentrations in blood. The unit 'ng/mL' is commonly used for D-Dimer tests."
+        },
+        {
+          "label": "Setting range type",
+          "value": "NumericToRange"
+        },
+        {
+          "label": "Setting range",
+          "value": "min:  None, max: 500.0",
+          "id": "range"
+        },
+        {
+          "label": "Preparing matching",
+          "value": "Ready for matching"
+        },
+        {
+          "label": "Matching biomarker",
+          "value": 228
+        },
+        {
+          "label": "Rechecking unit..",
+          "value": "First step unit match was correct.",
+          "id": "final"
+        },
+        {
+          "label": "Adding data",
+          "value": "Added"
+        },
+        {
+          "label": "Finishing",
+          "value": "Done"
+        }
+      ],
+      "hex_value": null,
+      "issue_detected": false,
+      "issue": "The unit 'ng/ml' is a standard unit for measuring D-Dimer levels in blood, which supports a high accuracy probability of 95%. The provided value of 368.33 ng/ml is within the normal reference range of 'Upto 500', indicating a high probability of 90% for the value's accuracy. The reference range itself is consistent with established medical guidelines for D-Dimer testing, leading to a 95% probability for its accuracy. Overall, combining these factors results in a total accuracy probability of 93%.",
+      "nrr_type": "NumericToRange",
+      "createdAt": "2025-03-06T07:41:50.015Z",
+      "updatedAt": "2025-03-06T07:46:53.881Z",
+      "__v": 11,
+      "biomarkersDynamics": [
+        {
+          "_id": "67c951becf6884d40df9a63f",
+          "type": "biomarker",
+          "valueType": "string",
+          "userId": 205195,
+          "testResultUid": "e3bb239a-38e9-4c6c-ac84-2008ce63b638",
+          "biomarkerUid": "dea32a1c-af6e-4cb0-bc9d-6df9e508fc61",
+          "date": "2025-03-02T18:30:00.000Z",
+          "name": "",
+          "value": 368.33,
+          "original_value": 368.33,
+          "original_name": "D-DIMER (MINI\nVIDAS) Methodology : ELFA",
+          "original_unit": "ng/ml",
+          "standard_unit": "ng/mL",
+          "standard_id": 228,
+          "visionId": 5,
+          "standard_unit_id": 56,
+          "unit": "",
+          "original_reference_range": "Upto 500",
+          "reference_range": null,
+          "reference_range_minimum": null,
+          "reference_range_maximum": 500,
+          "reference_range_unit": null,
+          "explanation_out_of_range": "A D-Dimer level within the reference range suggests that there is no significant clot formation and breakdown in the body.",
+          "explanation_general": "D-Dimer is a protein fragment that is produced when a blood clot dissolves in the body. It is often measured to help diagnose or rule out conditions related to abnormal clotting, such as deep vein thrombosis or pulmonary embolism.",
+          "out_of_range": null,
+          "out_direction": "",
+          "matched": false,
+          "reported": false,
+          "steps": [
+            {
+              "label": "Detecting biomarker",
+              "value": 1,
+              "id": "detected"
+            },
+            {
+              "label": "Extracting biomarker",
+              "value": "D-DIMER (MINI VIDAS)",
+              "id": "name"
+            },
+            {
+              "label": "Checking biomarker",
+              "value": "Checked",
+              "id": "check"
+            },
+            {
+              "label": "Making unit readable",
+              "value": "undefined",
+              "id": "value"
+            },
+            {
+              "label": "Making value readable",
+              "value": "ng/ml",
+              "id": "unit"
+            },
+            {
+              "label": "Matching unit",
+              "value": "Name:ng/mL, ID: 56 . \nThe original unit 'ng/ml' is equivalent to 'ng/mL', which is a standard unit for measuring concentrations in blood. The unit 'ng/mL' is commonly used for D-Dimer tests."
+            },
+            {
+              "label": "Setting range type",
+              "value": "NumericToRange"
+            },
+            {
+              "label": "Setting range",
+              "value": "min:  None, max: 500.0",
+              "id": "range"
+            },
+            {
+              "label": "Preparing matching",
+              "value": "Ready for matching"
+            },
+            {
+              "label": "Matching biomarker",
+              "value": 228
+            },
+            {
+              "label": "Rechecking unit..",
+              "value": "First step unit match was correct.",
+              "id": "final"
+            },
+            {
+              "label": "Adding data",
+              "value": "Added"
+            },
+            {
+              "label": "Finishing",
+              "value": "Done"
+            }
+          ],
+          "hex_value": null,
+          "issue_detected": false,
+          "issue": "The unit 'ng/ml' is a standard unit for measuring D-Dimer levels in blood, which supports a high accuracy probability of 95%. The provided value of 368.33 ng/ml is within the normal reference range of 'Upto 500', indicating a high probability of 90% for the value's accuracy. The reference range itself is consistent with established medical guidelines for D-Dimer testing, leading to a 95% probability for its accuracy. Overall, combining these factors results in a total accuracy probability of 93%.",
+          "nrr_type": "NumericToRange",
+          "createdAt": "2025-03-06T07:41:50.015Z",
+          "updatedAt": "2025-03-06T07:46:53.881Z",
+          "__v": 11
+        }
+      ],
+      "globalBiomarker": {
+        "_id": "66ac9f1dbe3d908c5f523cd7",
+        "id": 228,
+        "title": "D-Dimer test",
+        "synonyms": [
+          {
+            "_id": "67c9c9ffcf6884d40dfb21d9",
+            "title": "D-Di",
+            "language": "EN",
+            "id": "67c9c9ffcf6884d40dfb21d9"
+          }
+        ],
+        "possibleValueMax": 16.6668,
+        "possibleValueMin": 0,
+        "isAllowAutounit": true,
+        "biomaterialId": 2,
+        "substanceId": 275,
+        "displayCategoryId": 76,
+        "pregnancyCorrelation": 0,
+        "sortOrder": 3780,
+        "isPaid": true,
+        "articleId": 228,
+        "unitsFactors": [
+          [
+            57,
+            5.55556
+          ],
+          [
+            24,
+            0.00555556
+          ],
+          [
+            56,
+            0.00555556
+          ],
+          [
+            29,
+            5.55556
+          ]
+        ],
+        "availableUnits": {
+          "unitId57": {
+            "id": 57,
+            "coefficient": 5.55556
+          },
+          "unitId24": {
+            "id": 24,
+            "coefficient": 0.00555556
+          },
+          "unitId56": {
+            "id": 56,
+            "coefficient": 0.00555556
+          },
+          "unitId29": {
+            "id": 29,
+            "coefficient": 5.55556
+          }
+        },
+        "unitIds": [
+          57,
+          24,
+          56,
+          29
+        ],
+        "standard_id": 228,
+        "units": [
+          {
+            "_id": "66f2fcd1fc79fb27d79f766a",
+            "id": 57,
+            "title": "mcg/mL",
+            "synonymsString": "mcg/mL,  µg/mL,  ug/mL",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f764d",
+            "id": 24,
+            "title": "mcg/L",
+            "synonymsString": "mcg/L,  µg/L,  ug/L",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f7669",
+            "id": 56,
+            "title": "ng/mL",
+            "synonymsString": "ng/mL",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f7651",
+            "id": 29,
+            "title": "mg/L",
+            "synonymsString": "mg/L",
+            "valueType": 1
+          }
+        ]
+      }
+    }
+  }

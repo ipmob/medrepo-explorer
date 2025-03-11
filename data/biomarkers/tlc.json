@@ -1,0 +1,327 @@
+{
+    "biomarker": {
+      "_id": "67c951becf6884d40df9a656",
+      "type": "biomarker",
+      "valueType": "string",
+      "userId": 205195,
+      "testResultUid": "e3bb239a-38e9-4c6c-ac84-2008ce63b638",
+      "biomarkerUid": "ffded2fd-15d2-49e0-a14e-44f92af44736",
+      "date": "2025-03-02T18:30:00.000Z",
+      "name": "",
+      "value": 3760,
+      "original_value": 3760,
+      "original_name": "TC Methodology: Electrical\nImpedance.",
+      "original_unit": "/cumm",
+      "standard_unit": "×10³/mcL",
+      "standard_id": 909,
+      "visionId": 45,
+      "standard_unit_id": 82,
+      "unit": "",
+      "original_reference_range": "4000 to 11000 /cumm",
+      "reference_range": null,
+      "reference_range_minimum": 4000,
+      "reference_range_maximum": 11000,
+      "reference_range_unit": null,
+      "explanation_out_of_range": "A low total leukocyte count (TLC) can indicate a weakened immune system, which may be due to conditions such as bone marrow disorders, autoimmune diseases, or the effects of certain medications.",
+      "explanation_general": "Total leukocyte count (TLC) measures the number of white blood cells in the blood, which are crucial for fighting infections and responding to foreign substances.",
+      "out_of_range": true,
+      "out_direction": "",
+      "matched": false,
+      "reported": false,
+      "steps": [
+        {
+          "label": "Detecting biomarker",
+          "value": 1,
+          "id": "detected"
+        },
+        {
+          "label": "Extracting biomarker",
+          "value": "TC Methodology: Electrical Impedance",
+          "id": "name"
+        },
+        {
+          "label": "Checking biomarker",
+          "value": "Checked",
+          "id": "check"
+        },
+        {
+          "label": "Making unit readable",
+          "value": "undefined",
+          "id": "value"
+        },
+        {
+          "label": "Making value readable",
+          "value": "/cumm",
+          "id": "unit"
+        },
+        {
+          "label": "Fixing biomarker",
+          "value": "fixed"
+        },
+        {
+          "label": "Matching unit",
+          "value": "Name:×10³/mcL, ID: 82 . \nThe original unit '/cumm' is equivalent to '×10³/mcL' as both represent the concentration of cells in a given volume of blood. The term 'cumm' is an abbreviation for 'cubic millimeter', which is equivalent to a microliter (mcL)."
+        },
+        {
+          "label": "Setting range type",
+          "value": "NumericRange"
+        },
+        {
+          "label": "Setting range",
+          "value": "min:  4000.0, max: 11000.0",
+          "id": "range"
+        },
+        {
+          "label": "Preparing matching",
+          "value": "Ready for matching"
+        },
+        {
+          "label": "Matching biomarker",
+          "value": 909
+        },
+        {
+          "label": "Rechecking unit..",
+          "value": "First step unit match was correct.",
+          "id": "final"
+        },
+        {
+          "label": "Adding data",
+          "value": "Added"
+        },
+        {
+          "label": "Finishing",
+          "value": "Done"
+        }
+      ],
+      "hex_value": null,
+      "issue_detected": true,
+      "issue": "The unit '/cumm' is commonly used for blood cell counts, which supports a high probability for unit accuracy. The provided value of 3760.0 is below the reference range of 4000 to 11000 /cumm, indicating a potential issue with the value's accuracy, hence a lower probability. The reference range itself is typical for total blood counts, but the specific range can vary slightly between laboratories, leading to a moderate probability for its accuracy.",
+      "nrr_type": "NumericRange",
+      "createdAt": "2025-03-06T07:41:50.120Z",
+      "updatedAt": "2025-03-06T07:46:54.178Z",
+      "__v": 12,
+      "biomarkersDynamics": [
+        {
+          "_id": "67c951becf6884d40df9a656",
+          "type": "biomarker",
+          "valueType": "string",
+          "userId": 205195,
+          "testResultUid": "e3bb239a-38e9-4c6c-ac84-2008ce63b638",
+          "biomarkerUid": "ffded2fd-15d2-49e0-a14e-44f92af44736",
+          "date": "2025-03-02T18:30:00.000Z",
+          "name": "",
+          "value": 3760,
+          "original_value": 3760,
+          "original_name": "TC Methodology: Electrical\nImpedance.",
+          "original_unit": "/cumm",
+          "standard_unit": "×10³/mcL",
+          "standard_id": 909,
+          "visionId": 45,
+          "standard_unit_id": 82,
+          "unit": "",
+          "original_reference_range": "4000 to 11000 /cumm",
+          "reference_range": null,
+          "reference_range_minimum": 4000,
+          "reference_range_maximum": 11000,
+          "reference_range_unit": null,
+          "explanation_out_of_range": "A low total leukocyte count (TLC) can indicate a weakened immune system, which may be due to conditions such as bone marrow disorders, autoimmune diseases, or the effects of certain medications.",
+          "explanation_general": "Total leukocyte count (TLC) measures the number of white blood cells in the blood, which are crucial for fighting infections and responding to foreign substances.",
+          "out_of_range": true,
+          "out_direction": "",
+          "matched": false,
+          "reported": false,
+          "steps": [
+            {
+              "label": "Detecting biomarker",
+              "value": 1,
+              "id": "detected"
+            },
+            {
+              "label": "Extracting biomarker",
+              "value": "TC Methodology: Electrical Impedance",
+              "id": "name"
+            },
+            {
+              "label": "Checking biomarker",
+              "value": "Checked",
+              "id": "check"
+            },
+            {
+              "label": "Making unit readable",
+              "value": "undefined",
+              "id": "value"
+            },
+            {
+              "label": "Making value readable",
+              "value": "/cumm",
+              "id": "unit"
+            },
+            {
+              "label": "Fixing biomarker",
+              "value": "fixed"
+            },
+            {
+              "label": "Matching unit",
+              "value": "Name:×10³/mcL, ID: 82 . \nThe original unit '/cumm' is equivalent to '×10³/mcL' as both represent the concentration of cells in a given volume of blood. The term 'cumm' is an abbreviation for 'cubic millimeter', which is equivalent to a microliter (mcL)."
+            },
+            {
+              "label": "Setting range type",
+              "value": "NumericRange"
+            },
+            {
+              "label": "Setting range",
+              "value": "min:  4000.0, max: 11000.0",
+              "id": "range"
+            },
+            {
+              "label": "Preparing matching",
+              "value": "Ready for matching"
+            },
+            {
+              "label": "Matching biomarker",
+              "value": 909
+            },
+            {
+              "label": "Rechecking unit..",
+              "value": "First step unit match was correct.",
+              "id": "final"
+            },
+            {
+              "label": "Adding data",
+              "value": "Added"
+            },
+            {
+              "label": "Finishing",
+              "value": "Done"
+            }
+          ],
+          "hex_value": null,
+          "issue_detected": true,
+          "issue": "The unit '/cumm' is commonly used for blood cell counts, which supports a high probability for unit accuracy. The provided value of 3760.0 is below the reference range of 4000 to 11000 /cumm, indicating a potential issue with the value's accuracy, hence a lower probability. The reference range itself is typical for total blood counts, but the specific range can vary slightly between laboratories, leading to a moderate probability for its accuracy.",
+          "nrr_type": "NumericRange",
+          "createdAt": "2025-03-06T07:41:50.120Z",
+          "updatedAt": "2025-03-06T07:46:54.178Z",
+          "__v": 12
+        }
+      ],
+      "globalBiomarker": {
+        "_id": "66ac9f1dbe3d908c5f523f08",
+        "id": 909,
+        "title": "Bands",
+        "synonyms": [],
+        "possibleValueMax": 3000,
+        "possibleValueMin": 0,
+        "isAllowAutounit": true,
+        "biomaterialId": 2,
+        "displayCategoryId": 79,
+        "pregnancyCorrelation": 0,
+        "sortOrder": 3715,
+        "isPaid": true,
+        "articleId": 909,
+        "unitsFactors": [
+          [
+            60,
+            1000
+          ],
+          [
+            82,
+            1000
+          ],
+          [
+            48,
+            1000
+          ],
+          [
+            121,
+            1
+          ],
+          [
+            49,
+            1
+          ],
+          [
+            64,
+            1
+          ]
+        ],
+        "availableUnits": {
+          "unitId60": {
+            "id": 60,
+            "coefficient": 1000
+          },
+          "unitId82": {
+            "id": 82,
+            "coefficient": 1000
+          },
+          "unitId48": {
+            "id": 48,
+            "coefficient": 1000
+          },
+          "unitId121": {
+            "id": 121,
+            "coefficient": 1
+          },
+          "unitId49": {
+            "id": 49,
+            "coefficient": 1
+          },
+          "unitId64": {
+            "id": 64,
+            "coefficient": 1
+          }
+        },
+        "unitIds": [
+          60,
+          82,
+          48,
+          121,
+          49,
+          64
+        ],
+        "standard_id": 909,
+        "units": [
+          {
+            "_id": "66f2fcd1fc79fb27d79f766c",
+            "id": 60,
+            "title": "×10⁹/L",
+            "synonymsString": "×10⁹/L,  Giga/L",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f767d",
+            "id": 82,
+            "title": "×10³/mcL",
+            "synonymsString": "×10³/mcL, ×10³/uL, ×10³/µL, Kilo/mcL, Kilo/uL, Kilo/µL",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f7662",
+            "id": 48,
+            "title": "×10³/mm³",
+            "synonymsString": "×10³/mm³, Kunits/mm³",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f76a3",
+            "id": 121,
+            "title": "units/mm³",
+            "synonymsString": "units/mm³",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f7663",
+            "id": 49,
+            "title": "units/mcL",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f7670",
+            "id": 64,
+            "title": "×10⁶/L",
+            "synonymsString": "×10⁶/L, Mega/L",
+            "valueType": 1
+          }
+        ]
+      }
+    }
+  }

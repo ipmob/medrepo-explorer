@@ -1,0 +1,299 @@
+{
+    "biomarker": {
+      "_id": "67c951becf6884d40df9a644",
+      "type": "biomarker",
+      "valueType": "string",
+      "userId": 205195,
+      "testResultUid": "e3bb239a-38e9-4c6c-ac84-2008ce63b638",
+      "biomarkerUid": "de3c5a33-4882-4768-a031-389630d0ca44",
+      "date": "2025-03-02T18:30:00.000Z",
+      "name": "",
+      "value": 44.3,
+      "original_value": 44.3,
+      "original_name": "HEMATOCRIT/PCV Methodology :\nCPDM",
+      "original_unit": "%",
+      "standard_unit": "%",
+      "standard_id": 79,
+      "visionId": 15,
+      "standard_unit_id": 1,
+      "unit": "",
+      "original_reference_range": "40 to 54 %",
+      "reference_range": null,
+      "reference_range_minimum": 40,
+      "reference_range_maximum": 54,
+      "reference_range_unit": null,
+      "explanation_out_of_range": "Hematocrit levels below the normal range may indicate anemia, blood loss, or nutritional deficiencies, while levels above the normal range may suggest dehydration or polycythemia.",
+      "explanation_general": "Hematocrit, also known as packed cell volume (PCV), measures the proportion of red blood cells in your blood. It is an important indicator of your blood's ability to carry oxygen throughout the body.",
+      "out_of_range": null,
+      "out_direction": "",
+      "matched": false,
+      "reported": false,
+      "steps": [
+        {
+          "label": "Detecting biomarker",
+          "value": 1,
+          "id": "detected"
+        },
+        {
+          "label": "Extracting biomarker",
+          "value": "HEMATOCRIT/PCV",
+          "id": "name"
+        },
+        {
+          "label": "Checking biomarker",
+          "value": "Checked",
+          "id": "check"
+        },
+        {
+          "label": "Making unit readable",
+          "value": "undefined",
+          "id": "value"
+        },
+        {
+          "label": "Making value readable",
+          "value": "%",
+          "id": "unit"
+        },
+        {
+          "label": "Matching unit",
+          "value": "Name:%, ID: 1 . \nThe original unit for HEMATOCRIT/PCV is '%', which is a standard unit for expressing hematocrit levels as a percentage of the total blood volume. This matches directly with the standard unit '%' in the provided list."
+        },
+        {
+          "label": "Setting range type",
+          "value": "NumericRange"
+        },
+        {
+          "label": "Setting range",
+          "value": "min:  40.0, max: 54.0",
+          "id": "range"
+        },
+        {
+          "label": "Preparing matching",
+          "value": "Ready for matching"
+        },
+        {
+          "label": "Matching biomarker",
+          "value": 79
+        },
+        {
+          "label": "Rechecking unit..",
+          "value": "First step unit match was correct.",
+          "id": "final"
+        },
+        {
+          "label": "Adding data",
+          "value": "Added"
+        },
+        {
+          "label": "Finishing",
+          "value": "Done"
+        }
+      ],
+      "hex_value": null,
+      "issue_detected": false,
+      "issue": "The unit '%' is standard for hematocrit measurements, leading to a high probability of accuracy. The value of 44.3% falls within the typical range for adults, which is generally between 40% and 54%, supporting a high value probability. The reference range provided is consistent with established medical guidelines, further confirming its accuracy.",
+      "nrr_type": "NumericRange",
+      "createdAt": "2025-03-06T07:41:50.030Z",
+      "updatedAt": "2025-03-06T07:46:53.916Z",
+      "__v": 11,
+      "biomarkersDynamics": [
+        {
+          "_id": "67c951becf6884d40df9a644",
+          "type": "biomarker",
+          "valueType": "string",
+          "userId": 205195,
+          "testResultUid": "e3bb239a-38e9-4c6c-ac84-2008ce63b638",
+          "biomarkerUid": "de3c5a33-4882-4768-a031-389630d0ca44",
+          "date": "2025-03-02T18:30:00.000Z",
+          "name": "",
+          "value": 44.3,
+          "original_value": 44.3,
+          "original_name": "HEMATOCRIT/PCV Methodology :\nCPDM",
+          "original_unit": "%",
+          "standard_unit": "%",
+          "standard_id": 79,
+          "visionId": 15,
+          "standard_unit_id": 1,
+          "unit": "",
+          "original_reference_range": "40 to 54 %",
+          "reference_range": null,
+          "reference_range_minimum": 40,
+          "reference_range_maximum": 54,
+          "reference_range_unit": null,
+          "explanation_out_of_range": "Hematocrit levels below the normal range may indicate anemia, blood loss, or nutritional deficiencies, while levels above the normal range may suggest dehydration or polycythemia.",
+          "explanation_general": "Hematocrit, also known as packed cell volume (PCV), measures the proportion of red blood cells in your blood. It is an important indicator of your blood's ability to carry oxygen throughout the body.",
+          "out_of_range": null,
+          "out_direction": "",
+          "matched": false,
+          "reported": false,
+          "steps": [
+            {
+              "label": "Detecting biomarker",
+              "value": 1,
+              "id": "detected"
+            },
+            {
+              "label": "Extracting biomarker",
+              "value": "HEMATOCRIT/PCV",
+              "id": "name"
+            },
+            {
+              "label": "Checking biomarker",
+              "value": "Checked",
+              "id": "check"
+            },
+            {
+              "label": "Making unit readable",
+              "value": "undefined",
+              "id": "value"
+            },
+            {
+              "label": "Making value readable",
+              "value": "%",
+              "id": "unit"
+            },
+            {
+              "label": "Matching unit",
+              "value": "Name:%, ID: 1 . \nThe original unit for HEMATOCRIT/PCV is '%', which is a standard unit for expressing hematocrit levels as a percentage of the total blood volume. This matches directly with the standard unit '%' in the provided list."
+            },
+            {
+              "label": "Setting range type",
+              "value": "NumericRange"
+            },
+            {
+              "label": "Setting range",
+              "value": "min:  40.0, max: 54.0",
+              "id": "range"
+            },
+            {
+              "label": "Preparing matching",
+              "value": "Ready for matching"
+            },
+            {
+              "label": "Matching biomarker",
+              "value": 79
+            },
+            {
+              "label": "Rechecking unit..",
+              "value": "First step unit match was correct.",
+              "id": "final"
+            },
+            {
+              "label": "Adding data",
+              "value": "Added"
+            },
+            {
+              "label": "Finishing",
+              "value": "Done"
+            }
+          ],
+          "hex_value": null,
+          "issue_detected": false,
+          "issue": "The unit '%' is standard for hematocrit measurements, leading to a high probability of accuracy. The value of 44.3% falls within the typical range for adults, which is generally between 40% and 54%, supporting a high value probability. The reference range provided is consistent with established medical guidelines, further confirming its accuracy.",
+          "nrr_type": "NumericRange",
+          "createdAt": "2025-03-06T07:41:50.030Z",
+          "updatedAt": "2025-03-06T07:46:53.916Z",
+          "__v": 11
+        }
+      ],
+      "globalBiomarker": {
+        "_id": "66ac9f1dbe3d908c5f523c53",
+        "id": 79,
+        "title": "Hematocrit",
+        "synonyms": [
+          {
+            "_id": "67c9cab3cf6884d40dfb235c",
+            "title": "HCT",
+            "language": "EN",
+            "id": "67c9cab3cf6884d40dfb235c"
+          },
+          {
+            "_id": "67c9cab3cf6884d40dfb235d",
+            "title": "Packed Cell Volume (PCV)",
+            "language": "EN",
+            "id": "67c9cab3cf6884d40dfb235d"
+          }
+        ],
+        "possibleValueMax": 70,
+        "possibleValueMin": 15,
+        "isAllowAutounit": true,
+        "biomaterialId": 2,
+        "displayCategoryId": 79,
+        "pregnancyCorrelation": 1,
+        "sortOrder": 3915,
+        "isPaid": true,
+        "articleId": 79,
+        "unitsFactors": [
+          [
+            2,
+            100
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            51,
+            100
+          ],
+          [
+            147,
+            1
+          ]
+        ],
+        "availableUnits": {
+          "unitId2": {
+            "id": 2,
+            "coefficient": 100
+          },
+          "unitId1": {
+            "id": 1,
+            "coefficient": 1
+          },
+          "unitId51": {
+            "id": 51,
+            "coefficient": 100
+          },
+          "unitId147": {
+            "id": 147,
+            "coefficient": 1
+          }
+        },
+        "unitIds": [
+          2,
+          1,
+          51,
+          147
+        ],
+        "standard_id": 79,
+        "units": [
+          {
+            "_id": "66f2fcd1fc79fb27d79f763c",
+            "id": 2,
+            "title": "L/L",
+            "synonymsString": "L/L",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f763b",
+            "id": 1,
+            "title": "%",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f7665",
+            "id": 51,
+            "title": "×100%",
+            "synonymsString": "×100%",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f76ba",
+            "id": 147,
+            "title": "ml/dL",
+            "valueType": 1
+          }
+        ]
+      }
+    }
+  }

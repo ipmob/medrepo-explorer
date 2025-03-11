@@ -1,0 +1,263 @@
+{
+    "biomarker": {
+      "_id": "67c951becf6884d40df9a64d",
+      "type": "biomarker",
+      "valueType": "string",
+      "userId": 205195,
+      "testResultUid": "e3bb239a-38e9-4c6c-ac84-2008ce63b638",
+      "biomarkerUid": "c54234c2-7d7a-46fa-a500-ab6e0cee5b0c",
+      "date": "2025-03-02T18:30:00.000Z",
+      "name": "",
+      "value": 29.5,
+      "original_value": 29.5,
+      "original_name": "MCH Methodology : CPDM",
+      "original_unit": "pg",
+      "standard_unit": "pg",
+      "standard_id": 6,
+      "visionId": 30,
+      "standard_unit_id": 19,
+      "unit": "",
+      "original_reference_range": "27 to 32",
+      "reference_range": null,
+      "reference_range_minimum": 27,
+      "reference_range_maximum": 32,
+      "reference_range_unit": null,
+      "explanation_out_of_range": null,
+      "explanation_general": "MCH (Mean Corpuscular Hemoglobin) is a measure of the average amount of hemoglobin inside a single red blood cell. It helps in diagnosing and classifying types of anemia.",
+      "out_of_range": null,
+      "out_direction": "",
+      "matched": false,
+      "reported": false,
+      "steps": [
+        {
+          "label": "Detecting biomarker",
+          "value": 1,
+          "id": "detected"
+        },
+        {
+          "label": "Extracting biomarker",
+          "value": "MCH",
+          "id": "name"
+        },
+        {
+          "label": "Checking biomarker",
+          "value": "Checked",
+          "id": "check"
+        },
+        {
+          "label": "Making unit readable",
+          "value": "undefined",
+          "id": "value"
+        },
+        {
+          "label": "Making value readable",
+          "value": "pg",
+          "id": "unit"
+        },
+        {
+          "label": "Matching unit",
+          "value": "Name:pg, ID: 19 . \nThe original unit for MCH (Mean Corpuscular Hemoglobin) is given as 'pg', which stands for picograms. This is a standard unit for measuring the amount of hemoglobin per red blood cell, and it matches the standard unit ID 19 in the provided list."
+        },
+        {
+          "label": "Setting range type",
+          "value": "NumericRange"
+        },
+        {
+          "label": "Setting range",
+          "value": "min:  27.0, max: 32.0",
+          "id": "range"
+        },
+        {
+          "label": "Preparing matching",
+          "value": "Ready for matching"
+        },
+        {
+          "label": "Matching biomarker",
+          "value": 6
+        },
+        {
+          "label": "Rechecking unit..",
+          "value": "First step unit match was correct.",
+          "id": "final"
+        },
+        {
+          "label": "Adding data",
+          "value": "Added"
+        },
+        {
+          "label": "Finishing",
+          "value": "Done"
+        }
+      ],
+      "hex_value": null,
+      "issue_detected": false,
+      "issue": "The unit 'pg' (picograms) is a standard unit for measuring MCH (Mean Corpuscular Hemoglobin), which is commonly reported in this unit. The value of 29.5 pg falls within the typical reference range of 27 to 32 pg, indicating it is likely accurate. The reference range itself is consistent with established clinical guidelines for MCH, which further supports the accuracy of the data.",
+      "nrr_type": "NumericRange",
+      "createdAt": "2025-03-06T07:41:50.077Z",
+      "updatedAt": "2025-03-06T07:46:53.957Z",
+      "__v": 11,
+      "biomarkersDynamics": [
+        {
+          "_id": "67c951becf6884d40df9a64d",
+          "type": "biomarker",
+          "valueType": "string",
+          "userId": 205195,
+          "testResultUid": "e3bb239a-38e9-4c6c-ac84-2008ce63b638",
+          "biomarkerUid": "c54234c2-7d7a-46fa-a500-ab6e0cee5b0c",
+          "date": "2025-03-02T18:30:00.000Z",
+          "name": "",
+          "value": 29.5,
+          "original_value": 29.5,
+          "original_name": "MCH Methodology : CPDM",
+          "original_unit": "pg",
+          "standard_unit": "pg",
+          "standard_id": 6,
+          "visionId": 30,
+          "standard_unit_id": 19,
+          "unit": "",
+          "original_reference_range": "27 to 32",
+          "reference_range": null,
+          "reference_range_minimum": 27,
+          "reference_range_maximum": 32,
+          "reference_range_unit": null,
+          "explanation_out_of_range": null,
+          "explanation_general": "MCH (Mean Corpuscular Hemoglobin) is a measure of the average amount of hemoglobin inside a single red blood cell. It helps in diagnosing and classifying types of anemia.",
+          "out_of_range": null,
+          "out_direction": "",
+          "matched": false,
+          "reported": false,
+          "steps": [
+            {
+              "label": "Detecting biomarker",
+              "value": 1,
+              "id": "detected"
+            },
+            {
+              "label": "Extracting biomarker",
+              "value": "MCH",
+              "id": "name"
+            },
+            {
+              "label": "Checking biomarker",
+              "value": "Checked",
+              "id": "check"
+            },
+            {
+              "label": "Making unit readable",
+              "value": "undefined",
+              "id": "value"
+            },
+            {
+              "label": "Making value readable",
+              "value": "pg",
+              "id": "unit"
+            },
+            {
+              "label": "Matching unit",
+              "value": "Name:pg, ID: 19 . \nThe original unit for MCH (Mean Corpuscular Hemoglobin) is given as 'pg', which stands for picograms. This is a standard unit for measuring the amount of hemoglobin per red blood cell, and it matches the standard unit ID 19 in the provided list."
+            },
+            {
+              "label": "Setting range type",
+              "value": "NumericRange"
+            },
+            {
+              "label": "Setting range",
+              "value": "min:  27.0, max: 32.0",
+              "id": "range"
+            },
+            {
+              "label": "Preparing matching",
+              "value": "Ready for matching"
+            },
+            {
+              "label": "Matching biomarker",
+              "value": 6
+            },
+            {
+              "label": "Rechecking unit..",
+              "value": "First step unit match was correct.",
+              "id": "final"
+            },
+            {
+              "label": "Adding data",
+              "value": "Added"
+            },
+            {
+              "label": "Finishing",
+              "value": "Done"
+            }
+          ],
+          "hex_value": null,
+          "issue_detected": false,
+          "issue": "The unit 'pg' (picograms) is a standard unit for measuring MCH (Mean Corpuscular Hemoglobin), which is commonly reported in this unit. The value of 29.5 pg falls within the typical reference range of 27 to 32 pg, indicating it is likely accurate. The reference range itself is consistent with established clinical guidelines for MCH, which further supports the accuracy of the data.",
+          "nrr_type": "NumericRange",
+          "createdAt": "2025-03-06T07:41:50.077Z",
+          "updatedAt": "2025-03-06T07:46:53.957Z",
+          "__v": 11
+        }
+      ],
+      "globalBiomarker": {
+        "_id": "66ac9f1dbe3d908c5f523c0a",
+        "id": 6,
+        "title": "MCH",
+        "synonyms": [
+          {
+            "_id": "67c9cb70cf6884d40dfb2430",
+            "title": "Mean corpuscular hemoglobin",
+            "language": "EN",
+            "id": "67c9cb70cf6884d40dfb2430"
+          }
+        ],
+        "possibleValueMax": 3.105,
+        "possibleValueMin": 0.9315,
+        "isAllowAutounit": true,
+        "biomaterialId": 2,
+        "displayCategoryId": 79,
+        "pregnancyCorrelation": 0,
+        "sortOrder": 3913,
+        "isPaid": false,
+        "articleId": 6,
+        "unitsFactors": [
+          [
+            19,
+            0.0621
+          ],
+          [
+            18,
+            1
+          ]
+        ],
+        "availableUnits": {
+          "unitId19": {
+            "id": 19,
+            "coefficient": 0.0621
+          },
+          "unitId18": {
+            "id": 18,
+            "coefficient": 1
+          }
+        },
+        "unitIds": [
+          19,
+          18
+        ],
+        "standard_id": 6,
+        "units": [
+          {
+            "_id": "66f2fcd1fc79fb27d79f7649",
+            "id": 19,
+            "title": "pg",
+            "synonymsString": "pg, pg/cell",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f7648",
+            "id": 18,
+            "title": "fmol",
+            "synonymsString": "fmol",
+            "valueType": 1
+          }
+        ]
+      }
+    }
+  }

@@ -1,0 +1,320 @@
+[SYMPTOMS GUIDE](https://docus.ai/symptoms-guide)
+
+[Diagnostic Tests](https://docus.ai/symptoms-guide/category/diagnostic-tests)
+
+# High Neutrophils, Low Lymphocytes: What Does It Mean?
+
+Author
+
+[MaryMarkaryan](https://docus.ai/author/mary-markaryan)
+
+Reviewed by
+
+[DrLusineBadalian](https://docus.ai/author/dr-lusine-badalian)
+
+Jan 24, 2025\| 5 min read
+
+[Blood Work](https://docus.ai/tags/blood-work)
+
+Question on this topic?Get an instant answer from AI Doctor.Instant answer from AI Doctor.
+
+Ask Question
+
+Let me take a wild guess.
+
+You—or someone you know—just got their blood test results back. You’ve seen those words, “ **high neutrophils**, **low lymphocytes**,” and now you’re wondering,
+
+- What does this mean?
+- Is it something serious?
+- Should I be worried?
+
+TAKE A DEEP BREATH!
+
+We’re going to break this down together, step by step, without all the confusing medical lingo.
+
+Sound good? Let’s dive in.
+
+![high neutrophils low lymphocytes](https://docus.ai/_next/image?url=https%3A%2F%2Fdocus-live-cms-storage-us.s3.amazonaws.com%2Fproduct_guide%2Fimages%2Fsections%2F72f926297b2ac7b6ee6b8bca74a58db1.png&w=3840&q=100)
+
+Contents
+
+- [What Are Neutrophils and Lymphocytes?](https://docus.ai/symptoms-guide/high-neutrophils-low-lymphocytes#what-are-neutrophils-and-lymphocytes)
+- [What Does High Neutrophils and Low Lymphocytes Mean?](https://docus.ai/symptoms-guide/high-neutrophils-low-lymphocytes#what-does-high-neutrophils-and-low-lymphocytes-mean)
+- [What Does the Neutrophil-to-Lymphocyte Ratio (NLR) Tell You?](https://docus.ai/symptoms-guide/high-neutrophils-low-lymphocytes#what-does-the-neutrophil-to-lymphocyte-ratio-nlr-tell-you)
+- [What to Do Next?](https://docus.ai/symptoms-guide/high-neutrophils-low-lymphocytes#what-to-do-next)
+- [When Can High Neutrophils and Low Lymphocytes Be Normal?](https://docus.ai/symptoms-guide/high-neutrophils-low-lymphocytes#when-can-high-neutrophils-and-low-lymphocytes-be-normal)
+- [Conclusion](https://docus.ai/symptoms-guide/high-neutrophils-low-lymphocytes#conclusion)
+
+## What Are Neutrophils and Lymphocytes?
+
+Your blood contains different types of cells, and one important group is [**white blood cells** **(WBCs)**](https://docus.ai/glossary/biomarkers/white-blood-cell). Its two main components are [**neutrophils**](https://docus.ai/glossary/biomarkers/neutrophils#what-are-the-normal-neutrophil-levels) and **[lymphocytes](https://docus.ai/glossary/biomarkers/lymphocytes).**
+
+Just in case you’re wondering, white blood cells (WBCs) are also made up of [**eosinophils**](https://docus.ai/glossary/biomarkers/eosinophils), [**basophils**](https://docus.ai/glossary/biomarkers/basophils), and **monocytes**.
+
+Each type has its own job, but **neutrophils** and **lymphocytes** are two of the most important when it comes to protecting your body from infections.
+
+You’ll probably (or in most cases) see these levels reported as part of a [**Complete Blood Count (CBC)**](https://docus.ai/glossary/lab-test-types/cbc-blood-test) test, which is one of the most common [blood tests](https://docus.ai/glossary/lab-test-types/cbc-blood-test) ordered by doctors.
+
+### Neutrophils: Your Body’s First Responders
+
+Neutrophils are the most common type of white blood cell. Their job is to quickly fight infections, destroy bacteria, and clear damaged cells to keep you healthy.
+
+These levels can appear on your blood test as either an absolute number **(cells/µL)** or a percentage **(%)** of your total white blood cells.
+
+- **Normal levels**: [1,500 to 8,000](https://www.ncbi.nlm.nih.gov/books/NBK604207/) cells/µL or 40–60%.
+
+Think of neutrophils as the emergency responders of your immune system—they’re the first on the scene, ready to tackle any problem.
+
+### Lymphocytes: Your Long-Term Defenders
+
+Lymphocytes are another key type of white blood cell.
+
+Unlike neutrophils, lymphocytes work slower. They identify viruses, create antibodies, and help your body build immunity for the future.
+
+- **Normal levels**: 1,000 to 4,800 cells/µL or [20–40%](https://www.ucsfhealth.org/medical-tests/blood-differential-test).
+
+Lymphocytes are like the strategists in your immune system, creating long-term defense plans to keep you healthy.
+
+![Blood test sample](https://docus.ai/_next/image?url=https%3A%2F%2Fdocus-live-cms-storage-us.s3.amazonaws.com%2Fproduct_guide%2Fimages%2Fsections%2F7afd23c93b5718769eb81e4394c04fee.png&w=3840&q=100)
+
+**Image source**: [SCRIBD](https://www.scribd.com/document/546218008/2108119998-rpt-3-1)
+
+**Note**: _The units of measurement and the normal ranges can differ depending on the laboratory and the specific methods used._
+
+## What Does High Neutrophils and Low Lymphocytes Mean?
+
+High neutrophils (neutrophilia) and low lymphocytes (lymphocytopenia) often indicate an **acute bacterial infection** or **inflammatory condition.**
+
+You may also experience symptoms of an infectious process, such as **fever**, **fatigue**, **swollen lymph nodes**, or **localized pain**.
+
+These results may also be seen in:
+
+- **Corticosteroid Use:** These medications can suppress lymphocytes and increase neutrophils.
+- **Chronic Inflammation:** Conditions like rheumatoid [arthritis](https://docus.ai/tags/arthritis) or inflammatory bowel disease.
+- **Severe Infections:** Such as sepsis or abscesses.
+- **Bone Marrow Disorders:** Rarely, certain cancers like leukemia can cause similar changes.
+- **Stress Response:** Physical or emotional stress, like surgery, an intense workout, or a rough week, can cause temporary slight changes in white blood cell levels.
+
+Always check with your doctor to get a clear understanding and an accurate diagnosis.
+
+**Well, now you know what your results mean. This could have been the end of the article, huh?**
+
+But let’s be honest—you’ve probably already searched the internet and come across the term **NLR**.
+
+Now you’re wondering, “What does that even mean?”
+
+Well, let’s figure it out together.
+
+![Lab Test Interpretation](https://docus.ai/_next/image?url=%2Fhome%2Fservices%2Fhome_lab_tests.png&w=3840&q=100)
+
+#### Lab Test Interpretation
+
+Upload your lab tests, receive detailed interpretations, personalized insights and recommendations.
+
+[Learn More](https://docus.ai/lab-test-interpretation)
+
+## What Does the Neutrophil-to-Lymphocyte Ratio (NLR) Tell You?
+
+The neutrophil-to-lymphocyte ratio (NLR) is calculated using your blood test results.
+
+Just take the number of neutrophils and divide it by the number of lymphocytes—easy, right?
+
+**NLR=Absolute Lymphocyte Count (ALC)/ Absolute Neutrophil Count (ANC)​**
+
+It’s a simple way to measure your body’s immune and inflammatory response.
+
+**P.S.:** You won’t see the NLR directly listed on your test results—it’s something you (or your doctor) calculate.
+
+### Quick-Explanation
+
+- **Normal NLR**: [1–2](https://pubmed.ncbi.nlm.nih.gov/34161115/).
+- **High NLR**: Often linked to inflammation, infections, or stress.
+- **Very High NLR**: Could indicate severe conditions like sepsis, cancer, or critical illnesses.
+- **Low NLR**: May suggest certain viral infections, bone marrow problems, or conditions affecting lymphocyte production.
+
+## What to Do Next?
+
+The first step is to consult your doctor. They’ll look at your results alongside your symptoms and medical history to figure out what’s going on. Here’s what might happen next:
+
+1. Your doctor might order additional blood tests, such as a complete blood count (CBC) to confirm the results and check for any other abnormalities. They could also request specific tests to rule out infections, inflammation, or more serious conditions.
+2. They’ll ask about recent illnesses, stress, medications, or other factors that could be influencing your immune system.
+3. In some cases, they may recommend imaging tests (like X-rays or CT scans) or specialized labs to investigate infections, inflammation, or organ-related issues.
+4. Based on the findings, your doctor may recommend antibiotics, adjusting medications, or lifestyle changes.
+5. If the changes in your neutrophils and lymphocytes seem temporary, they might suggest keeping an eye on your symptoms and retesting after a few weeks.
+
+These steps are all about finding the cause and helping you move forward with a solution.
+
+**Don’t be shy** about asking your doctor questions—they’re there to make sure you feel clear and confident about what’s next.
+
+## When Can High Neutrophils and Low Lymphocytes Be Normal?
+
+Don’t rush with the panic—sometimes, high neutrophils and low lymphocytes are completely normal.
+
+For example, during **pregnancy**, especially in the third trimester, it’s normal for neutrophils to increase and lymphocytes to decrease. This is just your immune system adapting to protect both you and your baby.
+
+Another scenario? **Recovering from an infection.** After your body has fought off a bacterial illness, neutrophil levels can stay elevated for a while as lymphocytes slowly return to normal. In this case, your doctor may recommend retaking the test after some time to ensure your levels have balanced out.
+
+[**Aging**](https://pmc.ncbi.nlm.nih.gov/articles/PMC6807196/) can also play a role, as older adults naturally tend to have slightly higher neutrophils and lower lymphocytes compared to younger people.
+
+And yes, even habits like [**smoking** can influence your white blood cell counts](https://pmc.ncbi.nlm.nih.gov/articles/PMC8799291/), creating a similar pattern as your body responds to ongoing exposure to irritants.
+
+**The key takeaway?** These numbers don’t exist in a vacuum. Without symptoms or other abnormal findings, high neutrophils and low lymphocytes might not be anything to worry about.
+
+It’s always a good idea to discuss your results with your doctor—they’ll help you figure out what’s normal for your body and whether any follow-up is needed. That said, you can also use [online tools](https://docus.ai/lab-test-interpretation) to get a better understanding of your results before your appointment.
+
+## Frequently Asked Questions
+
+### \#\#\# What does high neutrophils, low lymphocytes, and high WBC mean?
+
+This combination often suggests an active infection, inflammation, or stress response in the body. It’s important to consult your doctor for further evaluation and context.
+
+### \#\#\# Does low neutrophils and high lymphocytes mean COVID-19?
+
+Low neutrophils and high lymphocytes can sometimes be seen in viral infections, including COVID-19. However, these findings are not exclusive to COVID-19, so a diagnosis requires additional testing and clinical correlation.
+
+### \#\#\# Why might high neutrophils and low lymphocytes occur in the third trimester?
+
+During the third trimester, the body’s immune system ramps up neutrophil production to prepare for childbirth, while lymphocyte levels may naturally decrease. This is typically normal.
+
+### \#\#\# Can high neutrophils and low lymphocytes indicate multiple sclerosis?
+
+High neutrophils and low lymphocytes are not specific markers for multiple sclerosis. However, if these results are present alongside other symptoms, they may warrant further investigation for autoimmune or inflammatory conditions.
+
+### \#\#\# What do high neutrophils, low lymphocytes, and high monocytes mean?
+
+This combination might suggest a chronic infection, inflammation, or recovery phase from an acute illness. It’s important to discuss these findings with your doctor for proper interpretation.
+
+### \#\#\# What do high neutrophils, low lymphocytes, and high immature granulocytes mean?
+
+This combination could indicate a significant infection or inflammatory response, as immature granulocytes are released when the body is fighting something aggressively. Consult a doctor for further evaluation.
+
+Have more questions? [Ask AI Doctor](https://docus.ai/symptoms-guide/high-neutrophils-low-lymphocytes#ask-your-question)
+
+## Conclusion
+
+Blood test results like **"high neutrophils, low lymphocytes"** can seem confusing and even a little scary at first.
+
+But remember, they’re just one piece of the puzzle your doctor uses to assess your health.
+
+Often, these results are tied to temporary factors like infections, stress, or medication.
+
+The key is to focus on what’s next: talk to your doctor, share your concerns, and let them guide you toward the best course of action.
+
+And don’t hesitate to ask questions—it’s your health, and you deserve to feel informed and confident.
+
+#### Sources
+
+This article was written by doctors from the Docus Medical Research team and reviewed by leading experts in infectious diseases. As part of our [editorial and medical review process](https://docus.ai/author), we relied on academic studies, medical research, and publications from credible sources to ensure the information provided is accurate and trustworthy.
+
+- Rosales, C. (2018). [Neutrophil: A cell with many roles in inflammation or several cell types?](https://pmc.ncbi.nlm.nih.gov/articles/PMC5826082/) _Frontiers in Physiology, 9_, 113.
+- Tahir, N., & Zahra, F. (2023). [Neutrophilia](https://pubmed.ncbi.nlm.nih.gov/34033333/). In _StatPearls_.
+- Mims, M. P. (2017). [Lymphocytosis, lymphocytopenia, hypergammaglobulinemia, and hypogammaglobulinemia](https://pmc.ncbi.nlm.nih.gov/articles/PMC7152059/). In R. Hoffman, E. J. Benz Jr., L. E. Silberstein, H. E. Heslop, J. I. Weitz, & J. Anastasi (Eds.), _Hematology_ (7th ed., pp. 682–690).
+- Yale Medicine. (n.d.). [Lymphocytopenia](https://www.yalemedicine.org/clinical-keywords/lymphocytopenia).
+
+![AI Assistant](https://docus.ai/images/small-assistant.png)
+
+### Have Questions?
+
+Have a question on this topic? Submit it here and get an instant answer from our AI Doctor.
+
+**Please Note!** This tool is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always consult a professional before taking any actions.
+
+## Docus Medical Experts
+
+Docus partners with top medical experts to provide trusted health insights and second opinions on infectious diseases.
+
+[![Alexy Inciarte Portillo](https://docus.ai/_next/image?url=https%3A%2F%2Fdocus-live-cms-storage-us.s3.amazonaws.com%2Fnetwork_doctors%2Fprofile_pictures%2F99ddc3d34c577e01af15bfe8c7c02329.png&w=3840&q=100)](https://docus.ai/doctors/alexy-inciarte-portillo-173)
+
+[**AlexyInciarte Portillo**\\
+\\
+Spain,18 years of experience\\
+\\
+Infectious Diseases](https://docus.ai/doctors/alexy-inciarte-portillo-173)
+
+[![Daria Podlekareva](https://docus.ai/_next/image?url=https%3A%2F%2Fdocus-live-cms-storage-us.s3.amazonaws.com%2Fnetwork_doctors%2Fprofile_pictures%2F9dadd40af54e86468e41c887999e61cf.png&w=3840&q=100)](https://docus.ai/doctors/daria-podlekareva-219)
+
+[**DariaPodlekareva**\\
+\\
+Denmark,24 years of experience\\
+\\
+Infectious Diseases](https://docus.ai/doctors/daria-podlekareva-219)
+
+[![Anna San Gil Betriu](https://docus.ai/_next/image?url=https%3A%2F%2Fdocus-live-cms-storage-us.s3.amazonaws.com%2Fnetwork_doctors%2Fprofile_pictures%2F122551ddecea56c04b6fd4594aad9c70.png&w=3840&q=100)](https://docus.ai/doctors/anna-san-gil-betriu-232)
+
+[**AnnaSan Gil Betriu**\\
+\\
+Spain,18 years of experience\\
+\\
+Infectious Diseases](https://docus.ai/doctors/anna-san-gil-betriu-232)
+
+[![Hans Dieter Nothdurft](https://docus.ai/_next/image?url=https%3A%2F%2Fdocus-live-cms-storage-us.s3.amazonaws.com%2Fnetwork_doctors%2Fprofile_pictures%2F22a13b92e1183ae551991d161f73219b.png&w=3840&q=100)](https://docus.ai/doctors/hans-dieter-nothdurft-287)
+
+[**Hans DieterNothdurft**\\
+\\
+Germany,52 years of experience\\
+\\
+Travel Medicine, Infectious Diseases](https://docus.ai/doctors/hans-dieter-nothdurft-287)
+
+[View All Doctors](https://docus.ai/doctors)
+
+## Make Informed Health Decisions
+
+Talk to Docus AI Doctor, generate health reports, get them validated by Top Doctors from the US and Europe.
+
+[Try Docus for Free](https://my.docus.ai/auth/signup)
+
+![Make Informed Health Decisions](https://docus.ai/_next/image?url=%2Fblog%2Fai-health-assistant.jpg&w=3840&q=100)
+
+## Recommended Topics
+
+[**Signs of HIV in the CBC Test: What to Look For?** \\
+\\
+Learn how CBC tests can reveal signs of HIV, aiding in early detection and management of this infectious disease.](https://docus.ai/symptoms-guide/signs-of-hiv-in-cbc) [**What to Eat Before Glucose Test: Essential Tips and Foods** \\
+\\
+Get tips on what to eat before a glucose test to ensure accurate results and maintain healthy blood sugar levels.](https://docus.ai/symptoms-guide/what-to-eat-before-glucose-test) [**The Best Time to Test for Hormone Imbalance** \\
+\\
+Find out when is the best time to test for hormone imbalance to get precise results and address symptoms effectively.](https://docus.ai/symptoms-guide/best-time-test-hormone-imbalance) [**Can a Metabolic Panel Actually Detect Cancer?** \\
+\\
+Find out whether a metabolic panel can detect cancer and why additional tests are necessary for an accurate diagnosis.](https://docus.ai/symptoms-guide/can-metabolic-panel-detect-cancer)
+
+## You’re only one click away from a life-changing journey
+
+[Try Docus for Free](https://my.docus.ai/auth/signup)
+
+Virtual health assistant powered by AI
+
+350+ world-renowned Doctors
+
+[![Docus: AI-Powered Health Platform](https://docus.ai/docus-dark-logo.svg)](https://docus.ai/)
+
+Improving human health through the combination of cutting-edge technologies and top medical expertise.
+
+[Twitter](https://twitter.com/docus_ai)
+
+[Facebook](https://www.facebook.com/docusai)
+
+[Instagram](https://www.instagram.com/docus.ai/)
+
+[Linkedin](https://www.linkedin.com/company/docusai/)
+
+Company
+
+[About us](https://docus.ai/about-us) [Pricing](https://docus.ai/pricing) [Contact](https://docus.ai/contact)
+
+Product
+
+[AI Health Assistant](https://docus.ai/ai-health-assistant) [AI Doctor](https://docus.ai/ai-doctor) [Lab Test Interpretation](https://docus.ai/lab-test-interpretation) [Symptom Checker](https://docus.ai/symptom-checker) [Second Opinion](https://docus.ai/second-opinion) [Live Product Status](https://docus.statuspage.io/)
+
+Resources
+
+[Blog](https://docus.ai/blog) [Knowledge Base](https://docus.ai/knowledge-base) [Symptoms Guide](https://docus.ai/symptoms-guide) [Glossary](https://docus.ai/glossary) [Use Cases](https://docus.ai/use-cases)
+
+Trust
+
+[Trust Center](https://trust.docus.ai/) [Terms of use](https://docus.ai/terms-of-use) [Privacy policy](https://docus.ai/privacy-policy) [Cookie policy](https://docus.ai/cookie-policy)
+
+© 2025 Docus, Inc.
+
+2810 N Church Street, Wilmington, DE 19802 United States
+
+[iframe](https://td.doubleclick.net/td/ga/rul?tid=G-C1NR4HEC74&gacid=642456318.1741384502&gtm=45je5362v874030715z8849365654za200zb849365654&dma=0&gcs=G1--&gcd=13l3l3R3l5l1&npa=0&pscdl=noapi&aip=1&fledge=1&frm=0&tag_exp=102067808~102482433~102539968~102587591~102640600~102717422~102788824~102813109&z=572706771)[iframe](https://td.doubleclick.net/td/rul/11076298198?random=1741384501615&cv=11&fst=1741384501615&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45je5362v874030715z8849365654za200zb849365654&gcd=13l3l3R3l5l1&dma=0&tag_exp=102067808~102482433~102539968~102587591~102640600~102717422~102788824~102813109&u_w=1280&u_h=1024&url=https%3A%2F%2Fdocus.ai%2Fsymptoms-guide%2Fhigh-neutrophils-low-lymphocytes&hn=www.googleadservices.com&frm=0&tiba=High%20Neutrophils%2C%20Low%20Lymphocytes%3A%20What%20Does%20It%20Mean%3F&npa=0&pscdl=noapi&auid=1441486895.1741384501&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&fledge=1&data=event%3Dgtag.config)

@@ -1,0 +1,262 @@
+{
+    "biomarker": {
+      "_id": "67c951becf6884d40df9a659",
+      "type": "biomarker",
+      "valueType": "string",
+      "userId": 205195,
+      "testResultUid": "e3bb239a-38e9-4c6c-ac84-2008ce63b638",
+      "biomarkerUid": "aed35fef-7b0e-49fd-94a1-f88b22752b6f",
+      "date": "2025-03-02T18:30:00.000Z",
+      "name": "",
+      "value": 44.4,
+      "original_value": 44.4,
+      "original_name": "Neutrophil Methodology: Fluorescent Flowcytometry",
+      "original_unit": "%",
+      "standard_unit": "%",
+      "standard_id": 221,
+      "visionId": 50,
+      "standard_unit_id": 1,
+      "unit": "",
+      "original_reference_range": "40 to 75 %",
+      "reference_range": null,
+      "reference_range_minimum": 40,
+      "reference_range_maximum": 75,
+      "reference_range_unit": null,
+      "explanation_out_of_range": null,
+      "explanation_general": "Neutrophils are a type of white blood cell that help the body fight infections by ingesting microorganisms and releasing enzymes that kill the microorganisms. They are an essential part of the immune system.",
+      "out_of_range": null,
+      "out_direction": "",
+      "matched": false,
+      "reported": false,
+      "steps": [
+        {
+          "label": "Detecting biomarker",
+          "value": 1,
+          "id": "detected"
+        },
+        {
+          "label": "Extracting biomarker",
+          "value": "Neutrophil",
+          "id": "name"
+        },
+        {
+          "label": "Checking biomarker",
+          "value": "Checked",
+          "id": "check"
+        },
+        {
+          "label": "Making unit readable",
+          "value": "undefined",
+          "id": "value"
+        },
+        {
+          "label": "Making value readable",
+          "value": "%",
+          "id": "unit"
+        },
+        {
+          "label": "Matching unit",
+          "value": "Name:%, ID: 1 . \nThe original unit for Neutrophil is '%', which is a standard unit for expressing the percentage of neutrophils in blood. This matches directly with the standard unit '%' from the list."
+        },
+        {
+          "label": "Setting range type",
+          "value": "NumericRange"
+        },
+        {
+          "label": "Setting range",
+          "value": "min:  40.0, max: 75.0",
+          "id": "range"
+        },
+        {
+          "label": "Preparing matching",
+          "value": "Ready for matching"
+        },
+        {
+          "label": "Matching biomarker",
+          "value": 221
+        },
+        {
+          "label": "Rechecking unit..",
+          "value": "First step unit match was correct.",
+          "id": "final"
+        },
+        {
+          "label": "Adding data",
+          "value": "Added"
+        },
+        {
+          "label": "Finishing",
+          "value": "Done"
+        }
+      ],
+      "hex_value": null,
+      "issue_detected": false,
+      "issue": "The unit '%' is commonly used for expressing the percentage of neutrophils in blood, which supports a high probability of accuracy for the unit. The value of 44.4% falls within the provided reference range of 40 to 75%, indicating a high probability for the value's accuracy as well. The reference range itself is consistent with standard clinical guidelines for neutrophil percentages, leading to a high probability for its accuracy. Overall, the combination of these factors results in a total probability of 91% for the accuracy of the biomarker data.",
+      "nrr_type": "NumericRange",
+      "createdAt": "2025-03-06T07:41:50.136Z",
+      "updatedAt": "2025-03-06T07:46:54.006Z",
+      "__v": 11,
+      "biomarkersDynamics": [
+        {
+          "_id": "67c951becf6884d40df9a659",
+          "type": "biomarker",
+          "valueType": "string",
+          "userId": 205195,
+          "testResultUid": "e3bb239a-38e9-4c6c-ac84-2008ce63b638",
+          "biomarkerUid": "aed35fef-7b0e-49fd-94a1-f88b22752b6f",
+          "date": "2025-03-02T18:30:00.000Z",
+          "name": "",
+          "value": 44.4,
+          "original_value": 44.4,
+          "original_name": "Neutrophil Methodology: Fluorescent Flowcytometry",
+          "original_unit": "%",
+          "standard_unit": "%",
+          "standard_id": 221,
+          "visionId": 50,
+          "standard_unit_id": 1,
+          "unit": "",
+          "original_reference_range": "40 to 75 %",
+          "reference_range": null,
+          "reference_range_minimum": 40,
+          "reference_range_maximum": 75,
+          "reference_range_unit": null,
+          "explanation_out_of_range": null,
+          "explanation_general": "Neutrophils are a type of white blood cell that help the body fight infections by ingesting microorganisms and releasing enzymes that kill the microorganisms. They are an essential part of the immune system.",
+          "out_of_range": null,
+          "out_direction": "",
+          "matched": false,
+          "reported": false,
+          "steps": [
+            {
+              "label": "Detecting biomarker",
+              "value": 1,
+              "id": "detected"
+            },
+            {
+              "label": "Extracting biomarker",
+              "value": "Neutrophil",
+              "id": "name"
+            },
+            {
+              "label": "Checking biomarker",
+              "value": "Checked",
+              "id": "check"
+            },
+            {
+              "label": "Making unit readable",
+              "value": "undefined",
+              "id": "value"
+            },
+            {
+              "label": "Making value readable",
+              "value": "%",
+              "id": "unit"
+            },
+            {
+              "label": "Matching unit",
+              "value": "Name:%, ID: 1 . \nThe original unit for Neutrophil is '%', which is a standard unit for expressing the percentage of neutrophils in blood. This matches directly with the standard unit '%' from the list."
+            },
+            {
+              "label": "Setting range type",
+              "value": "NumericRange"
+            },
+            {
+              "label": "Setting range",
+              "value": "min:  40.0, max: 75.0",
+              "id": "range"
+            },
+            {
+              "label": "Preparing matching",
+              "value": "Ready for matching"
+            },
+            {
+              "label": "Matching biomarker",
+              "value": 221
+            },
+            {
+              "label": "Rechecking unit..",
+              "value": "First step unit match was correct.",
+              "id": "final"
+            },
+            {
+              "label": "Adding data",
+              "value": "Added"
+            },
+            {
+              "label": "Finishing",
+              "value": "Done"
+            }
+          ],
+          "hex_value": null,
+          "issue_detected": false,
+          "issue": "The unit '%' is commonly used for expressing the percentage of neutrophils in blood, which supports a high probability of accuracy for the unit. The value of 44.4% falls within the provided reference range of 40 to 75%, indicating a high probability for the value's accuracy as well. The reference range itself is consistent with standard clinical guidelines for neutrophil percentages, leading to a high probability for its accuracy. Overall, the combination of these factors results in a total probability of 91% for the accuracy of the biomarker data.",
+          "nrr_type": "NumericRange",
+          "createdAt": "2025-03-06T07:41:50.136Z",
+          "updatedAt": "2025-03-06T07:46:54.006Z",
+          "__v": 11
+        }
+      ],
+      "globalBiomarker": {
+        "_id": "66ac9f1dbe3d908c5f523cd0",
+        "id": 221,
+        "title": "Neutrophils %",
+        "synonyms": [
+          {
+            "_id": "67c9cc4ccf6884d40dfb256a",
+            "title": "NEU, %",
+            "language": "EN",
+            "id": "67c9cc4ccf6884d40dfb256a"
+          }
+        ],
+        "possibleValueMax": 100,
+        "possibleValueMin": 10,
+        "isAllowAutounit": true,
+        "biomaterialId": 2,
+        "displayCategoryId": 79,
+        "pregnancyCorrelation": 0,
+        "sortOrder": 3900,
+        "isPaid": true,
+        "articleId": 221,
+        "unitsFactors": [
+          [
+            1,
+            1
+          ],
+          [
+            51,
+            100
+          ]
+        ],
+        "availableUnits": {
+          "unitId1": {
+            "id": 1,
+            "coefficient": 1
+          },
+          "unitId51": {
+            "id": 51,
+            "coefficient": 100
+          }
+        },
+        "unitIds": [
+          1,
+          51
+        ],
+        "standard_id": 221,
+        "units": [
+          {
+            "_id": "66f2fcd1fc79fb27d79f763b",
+            "id": 1,
+            "title": "%",
+            "valueType": 1
+          },
+          {
+            "_id": "66f2fcd1fc79fb27d79f7665",
+            "id": 51,
+            "title": "×100%",
+            "synonymsString": "×100%",
+            "valueType": 1
+          }
+        ]
+      }
+    }
+  }
