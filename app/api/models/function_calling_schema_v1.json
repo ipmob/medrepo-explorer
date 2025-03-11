@@ -1,0 +1,86 @@
+{
+    "name": "extract_medical_report",
+    "description": "Extract raw data from medical laboratory reports",
+    "parameters": {
+    "type": "object",
+    "properties": {
+    "patient_details": {
+        "type": "object",
+        "properties": {
+            "name": {"type": "string"},
+            "age": {"type": "integer"},
+            "sex": {"type": "string"}
+        },
+        "required": ["name", "age", "sex"]
+    },
+    "report_details": {
+        "type": "object",
+        "properties": {
+            "request_no": {"type": "string"},
+            "bill_no": {"type": "string"},
+            "referral_by": {"type": "string"},
+            "reporting_date": {"type": "string"}
+        }
+    },
+    "laboratory_details": {
+        "type": "object",
+        "properties": {
+            "entered_by": {"type": "string"},
+            "verified_by": {"type": "string"},
+            "date": {"type": "string"},
+            "time": {"type": "string"},
+            "final_report": {
+                "type": "object",
+                "properties": {
+                    "date": {"type": "string"},
+                    "signature": {"type": "string"},
+                    "title": {"type": "string"}
+                }
+            }
+        }
+    },
+    "test_results": {
+        "type": "object",
+        "properties": {
+            "test_type": {
+                "type": "string", 
+                "enum": [
+                    "blood-tests-for-inflammation",
+                    "cbc-blood-test",
+                    "metabolic-panel",
+                    "thyroid-panel-test",
+                    "urinalysis-test"
+                ]
+            },
+            "indicators": {
+                "type": "object",
+                "additionalProperties": {
+                    "type": "object",
+                    "properties": {
+                        "value": {"type": "string"},
+                        "reference": {"type": "string"},
+                        "methodology": {"type": "string"},
+                        "flag": {
+                            "type": "string",
+                            "enum": ["normal", "low", "high", "critical_low", "critical_high", "undetermined"]
+                        }
+                    },
+                    "required": ["value", "reference"]
+                }
+            },
+            "analysis": {
+                "type": "object",
+                "properties": {
+                    "summary": {"type": "string"},
+                    "recommendations": {"type": "string"},
+                    "markdown": {"type": "string"}
+                },
+                "required": ["summary"]
+            }
+        },
+        "required": ["test_type", "indicators"]
+    }
+    },
+    "required": ["patient_details", "test_results"]
+    }
+}

@@ -8,13 +8,19 @@ import pdfplumber
 from fastapi import APIRouter, UploadFile, File, HTTPException
 import io
 from app.utils.logger import logger
+from app.api.models.schema_models import MedicalReport
+from app.api.prompts.lab_report_extractor_system_prompt import SYSTEM_PROMPT as LAB_REPORT_EXTRACTOR_SYSTEM_PROMPT
+from app.api.prompts.extraction_tool_call_gemini import TOOL_CALL_GEMINI as EXTRACTION_TOOL_SCHEMA
 
 router = APIRouter()
 
 # OpenRouter API configuration
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-OPENROUTER_MODEL_NAME="cognitivecomputations/dolphin3.0-r1-mistral-24b:free"
+OPENROUTER_MODEL_NAME="google/gemini-2.0-pro-exp-02-05:free"
+
+# Load tool schema for function calling
+TOOL_SCHEMA = EXTRACTION_TOOL_SCHEMA
 
 async def generate_summary(text: str) -> Dict:
     """
@@ -69,9 +75,7 @@ async def generate_summary(text: str) -> Dict:
                 else:
                     json_obj = {'content': content}
 
-                logger.info(f"Generated json form model {OPENROUTER_MODEL_NAME} : {json.dumps(json_obj, indent=4)}")
-
-                
+                # logger.info(f"Generated json form model {OPENROUTER_MODEL_NAME} : {json.dumps(json_obj, indent=4)}")
                 # clean json object
                 if isinstance(json_obj, dict) and 'content' in json_obj:
                     content_str = json_obj['content']
@@ -85,7 +89,8 @@ async def generate_summary(text: str) -> Dict:
                             logger.info("Successfully extracted and parsed JSON from content")
                         except json.JSONDecodeError:
                             logger.warning("Found JSON code block but couldn't parse it")
-                
+                            
+                logger.info(f"Generated json form model {OPENROUTER_MODEL_NAME} : {json.dumps(json_obj, indent=4)}")
                 return json_obj
                 
             except json.JSONDecodeError as e:
@@ -95,6 +100,216 @@ async def generate_summary(text: str) -> Dict:
     except Exception as e:
         logger.error(f"Error calling OpenRouter API: {str(e)}")
         raise HTTPException(status_code=500, detail="Error generating summary")
+    
+
+# async def generate_report_extraction(text: str) -> Dict[str, Any]:
+#     """
+#     Extract standardized medical report data using OpenRouter AI with function calling
+#     """
+#     headers = {
+#         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+#         "HTTP-Referer": "https://your-site.com",
+#         "Content-Type": "application/json"
+#     }
+    
+#     try:
+#         async with httpx.AsyncClient() as client:
+#             logger.info(f"Extracting medical report data with OpenRouter API")
+#             response = await client.post(
+#                 OPENROUTER_URL,
+#                 headers=headers,
+#                 json={
+#                     "model": OPENROUTER_MODEL_NAME,
+#                     "messages": [
+#                         {"role": "system", "content": LAB_REPORT_EXTRACTOR_SYSTEM_PROMPT},
+#                         {"role": "user", "content": f"Extract structured information from this medical report: \n\n{text}"}
+#                     ],
+#                     "tools": [{
+#                         "type": "function",
+#                         "function": TOOL_SCHEMA["tools"][0]["function_declarations"][0]
+#                     }],
+#                     "tool_choice": {
+#                         "type": "function",
+#                         "function": {"name": "extract_medical_report"}
+#                     }
+#                 }
+#             )
+            
+#             if response.status_code != 200:
+#                 logger.error(f"OpenRouter API error: {response.text}")
+#                 raise HTTPException(status_code=500, detail="Error extracting report data")
+            
+#             result = response.json()
+#             logger.info(f"RAW response from {OPENROUTER_MODEL_NAME}: {json.dumps(result, indent=4)}")
+            
+#             # Handle Gemini-style function calling response
+#             if "choices" in result and result["choices"]:
+#                 choice = result["choices"][0]
+#                 message = choice.get("message", {})
+                
+#                 # Check for function call in the response
+#                 if "tool_calls" in message:
+#                     tool_call = message["tool_calls"][0]  # Get the first tool call
+#                     if tool_call["function"]["name"] == "extract_medical_report":
+#                         try:
+#                             extracted_data = json.loads(tool_call["function"]["arguments"])
+#                             logger.info(f"Successfully extracted data: {json.dumps(extracted_data, indent=4)}")
+                            
+#                             # Validate the extracted data
+#                             try:
+#                                 report = MedicalReport(**extracted_data)
+#                                 logger.info("Successfully validated medical report data")
+#                             except Exception as e:
+#                                 logger.warning(f"Validation warning for extracted data: {str(e)}")
+                            
+#                             return extracted_data
+                            
+#                         except json.JSONDecodeError as e:
+#                             logger.error(f"Error parsing function arguments: {str(e)}")
+#                             raise HTTPException(status_code=500, detail="Invalid function response format")
+                
+#                 # Fallback to content parsing if no tool calls found
+#                 content = message.get("content", "")
+#                 if content:
+#                     logger.info("No tool calls found, attempting to parse content")
+#                     try:
+#                         # Try to extract JSON from content
+#                         json_pattern = r"```json\s*([\s\S]*?)\s*```"
+#                         json_match = re.search(json_pattern, content)
+#                         if json_match:
+#                             extracted_json = json.loads(json_match.group(1))
+#                             logger.info("Successfully extracted JSON from content")
+#                             return extracted_json
+#                     except Exception as e:
+#                         logger.error(f"Error extracting JSON from content: {str(e)}")
+#                         raise HTTPException(status_code=500, detail="Failed to extract structured data")
+            
+#             logger.error("No valid response structure found")
+#             raise HTTPException(status_code=500, detail="Invalid response format from API")
+                
+#     except Exception as e:
+#         logger.error(f"Error calling OpenRouter API: {str(e)}")
+#         raise HTTPException(status_code=500, detail="Error generating extraction")
+
+async def generate_report_extraction(text: str) -> Dict[str, Any]:
+    """
+    Extract standardized medical report data using OpenRouter AI with function calling
+    """
+    headers = {
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+        "HTTP-Referer": "https://your-site.com",
+        "Content-Type": "application/json"
+    }
+    
+    try:
+        async with httpx.AsyncClient() as client:
+            logger.info(f"Extracting medical report data with OpenRouter API")
+            response = await client.post(
+                OPENROUTER_URL,
+                headers=headers,
+                json={
+                    "model": OPENROUTER_MODEL_NAME,
+                    "messages": [
+                        {"role": "system", "content": LAB_REPORT_EXTRACTOR_SYSTEM_PROMPT},
+                        {"role": "user", "content": f"Extract structured information from this medical report: \n\n{text}"}
+                    ],
+                    "tools": [{
+                        "type": "function",
+                        "function": TOOL_SCHEMA["tools"][0]["function_declarations"][0]
+                    }],
+                    "tool_choice": {
+                        "type": "function",
+                        "function": {"name": "extract_medical_report"}
+                    }
+                }
+            )
+            
+            if response.status_code != 200:
+                logger.error(f"OpenRouter API error: {response.text}")
+                raise HTTPException(status_code=500, detail="Error extracting report data")
+            
+            result = response.json()
+            logger.info(f"RAW response from {OPENROUTER_MODEL_NAME}: {json.dumps(result, indent=4)}")
+            
+            # Handle Gemini-style function calling response
+            if "choices" in result and result["choices"]:
+                choice = result["choices"][0]
+                message = choice.get("message", {})
+                
+                # Check for function call in the response
+                if "tool_calls" in message:
+                    tool_call = message["tool_calls"][0]  # Get the first tool call
+                    if tool_call["function"]["name"] == "extract_medical_report":
+                        try:
+                            extracted_data = json.loads(tool_call["function"]["arguments"])
+                            logger.info(f"Successfully extracted data: {json.dumps(extracted_data, indent=4)}")
+                            
+                            # Convert array-based indicators to dictionary format
+                            if "test_results" in extracted_data and "indicators" in extracted_data["test_results"]:
+                                if isinstance(extracted_data["test_results"]["indicators"], list):
+                                    indicators_dict = {}
+                                    for indicator in extracted_data["test_results"]["indicators"]:
+                                        if "name" in indicator:
+                                            name = indicator.pop("name")
+                                            indicators_dict[name] = indicator
+                                        else:
+                                            logger.warning(f"Indicator missing 'name' field: {indicator}")
+                                    
+                                    # Replace array with dictionary
+                                    extracted_data["test_results"]["indicators"] = indicators_dict
+                                    logger.info("Converted indicators array to dictionary format")
+                            
+                            # Validate the extracted data
+                            try:
+                                report = MedicalReport(**extracted_data)
+                                logger.info("Successfully validated medical report data")
+                            except Exception as e:
+                                logger.warning(f"Validation warning for extracted data: {str(e)}")
+                            
+                            return extracted_data
+                            
+                        except json.JSONDecodeError as e:
+                            logger.error(f"Error parsing function arguments: {str(e)}")
+                            raise HTTPException(status_code=500, detail="Invalid function response format")
+                
+                # Fallback to content parsing if no tool calls found
+                content = message.get("content", "")
+                if content:
+                    logger.info("No tool calls found, attempting to parse content")
+                    try:
+                        # Try to extract JSON from content
+                        json_pattern = r"```json\s*([\s\S]*?)\s*```"
+                        json_match = re.search(json_pattern, content)
+                        if json_match:
+                            extracted_json = json.loads(json_match.group(1))
+                            
+                            # Convert array-based indicators if present in extracted JSON
+                            if "test_results" in extracted_json and "indicators" in extracted_json["test_results"]:
+                                if isinstance(extracted_json["test_results"]["indicators"], list):
+                                    indicators_dict = {}
+                                    for indicator in extracted_json["test_results"]["indicators"]:
+                                        if "name" in indicator:
+                                            name = indicator.pop("name")
+                                            indicators_dict[name] = indicator
+                                        else:
+                                            logger.warning(f"Indicator missing 'name' field: {indicator}")
+                                    
+                                    # Replace array with dictionary
+                                    extracted_json["test_results"]["indicators"] = indicators_dict
+                                    logger.info("Converted indicators array to dictionary format in content JSON")
+                            
+                            logger.info("Successfully extracted JSON from content")
+                            return extracted_json
+                    except Exception as e:
+                        logger.error(f"Error extracting JSON from content: {str(e)}")
+                        raise HTTPException(status_code=500, detail="Failed to extract structured data")
+            
+            logger.error("No valid response structure found")
+            raise HTTPException(status_code=500, detail="Invalid response format from API")
+                
+    except Exception as e:
+        logger.error(f"Error calling OpenRouter API: {str(e)}")
+        raise HTTPException(status_code=500, detail="Error generating extraction")
 
 @router.post("/upload/")
 async def upload_file(file: UploadFile = File(...)) -> Dict[str, Any]:
@@ -125,7 +340,8 @@ async def upload_file(file: UploadFile = File(...)) -> Dict[str, Any]:
 
             logger.info(f"Extracted text from file")
 
-            extracted_json = await generate_summary(extracted_text)
+            # extracted_json = await generate_summary(extracted_text)
+            extracted_json = await generate_report_extraction(extracted_text)
             
             response = {
                 "filename": file.filename,
