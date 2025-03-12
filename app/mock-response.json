@@ -1,0 +1,84 @@
+{
+    "indicators": {
+        "Interleukin-6": {
+            "value": "3.65",
+            "reference": "< 3.0 to 4.4 pg/ml",
+            "methodology": "CLIA"
+        },
+        "D-DIMER": {
+            "value": "368.33",
+            "reference": "368.33 to 500 ng/ml",
+            "methodology": "ELFA"
+        },
+        "HAEMOGLOBIN": {
+            "value": "14.8",
+            "reference": "13 to 18 gм/dl",
+            "methodology": "SLS Photometry"
+        },
+        "HEMATOCRIT/PCV": {
+            "value": "44.3",
+            "reference": "40 to 54%",
+            "methodology": "CPDM"
+        },
+        "RBC COUNT": {
+            "value": "5.01",
+            "reference": "4.5 to 5.5 million/cumm",
+            "methodology": "CPDM"
+        },
+        "CPDM": {
+            "value": "29.5",
+            "reference": "27 to 32 pg",
+            "methodology": "CPDM"
+        },
+        "MCH": {
+            "value": "33.4",
+            "reference": "30 to 35 gm/dl",
+            "methodology": "CPDM"
+        },
+        "RDW-CV": {
+            "value": "13.2",
+            "reference": "10 to 15%",
+            "methodology": "CPDM"
+        },
+        "TC": {
+            "value": "3760",
+            "reference": "4000 to 11000 /cumm",
+            "methodology": "Electrical"
+        },
+        "LYMPHOCYTE": {
+            "value": "40.4%",
+            "reference": "20 to 45%",
+            "methodology": "Fluorescent Flowcytometry"
+        },
+        "NEUTROPHIL": {
+            "value": "44.4%",
+            "reference": "40 to 75%",
+            "methodology": "Fluorescent Flowcytometry"
+        },
+        "EOSINOPHIL": {
+            "value": "0.3%",
+            "reference": "up to 6%",
+            "methodology": "Fluorescent Flowcytometry"
+        },
+        "MONOCYTE": {
+            "value": "14.1%",
+            "reference": "1 to 10%",
+            "methodology": "Fluorescent Flowcytometry"
+        },
+        "BASOPHIL": {
+            "value": "0.8%",
+            "reference": "up to 1%",
+            "methodology": "Fluorescent Inflowcytometry"
+        },
+        "IMMATURE GRANULOCYTES": {
+            "value": "0.3%",
+            "reference": "up to 5%",
+            "methodology": "Fluorescent Flowcytometry"
+        }
+    },
+    "analysis" : {
+        "summary": "All parameters in biochemistry, haematology, and microbiology are within their reference ranges, indicating no clinical significance.",
+        "recommendations": "No further action is advised based on the results; routine follow-up can be scheduled if needed.",
+        "markdown" : " text in markdown that needs to be directly shown in the iframe"
+    }
+}

@@ -1,0 +1,350 @@
+{
+    "biomarker": {
+        "_id": "67c951becf6884d40df9a647",
+        "type": "biomarker",
+        "valueType": "string",
+        "userId": 205195,
+        "testResultUid": "e3bb239a-38e9-4c6c-ac84-2008ce63b638",
+        "biomarkerUid": "21463904-9ddc-4d2e-b316-9a357808d198",
+        "date": "2025-03-02T18:30:00.000Z",
+        "name": "",
+        "value": 5.01,
+        "original_value": 5.01,
+        "original_name": "RBC COUNT\nMethodology :\nElectrical Impedence",
+        "original_unit": "million/cumm",
+        "standard_unit": "×10¹²/L",
+        "standard_id": 24,
+        "visionId": 20,
+        "standard_unit_id": 50,
+        "unit": "",
+        "original_reference_range": "4.5 to 5.5",
+        "reference_range": null,
+        "reference_range_minimum": 4.5,
+        "reference_range_maximum": 5.5,
+        "reference_range_unit": null,
+        "explanation_out_of_range": null,
+        "explanation_general": "RBC count measures the number of red blood cells in a volume of blood. Red blood cells are responsible for carrying oxygen from the lungs to the rest of the body and returning carbon dioxide from the body to the lungs for exhalation.",
+        "out_of_range": null,
+        "out_direction": "",
+        "matched": false,
+        "reported": false,
+        "steps": [
+            {
+                "label": "Detecting biomarker",
+                "value": 1,
+                "id": "detected"
+            },
+            {
+                "label": "Extracting biomarker",
+                "value": "RBC COUNT",
+                "id": "name"
+            },
+            {
+                "label": "Checking biomarker",
+                "value": "Checked",
+                "id": "check"
+            },
+            {
+                "label": "Making unit readable",
+                "value": "undefined",
+                "id": "value"
+            },
+            {
+                "label": "Making value readable",
+                "value": "million/cumm",
+                "id": "unit"
+            },
+            {
+                "label": "Matching unit",
+                "value": "Name:×10¹²/L, ID: 50 . \nThe unit 'million/cumm' is equivalent to '×10¹²/L' as both represent the concentration of cells in a given volume of blood. 'cumm' stands for cubic millimeter, and 1 million cells per cubic millimeter is equivalent to 1 × 10¹² cells per liter."
+            },
+            {
+                "label": "Setting range type",
+                "value": "NumericRange"
+            },
+            {
+                "label": "Setting range",
+                "value": "min:  4.5, max: 5.5",
+                "id": "range"
+            },
+            {
+                "label": "Preparing matching",
+                "value": "Ready for matching"
+            },
+            {
+                "label": "Matching biomarker",
+                "value": 24
+            },
+            {
+                "label": "Rechecking unit..",
+                "value": "First step unit match was correct.",
+                "id": "final"
+            },
+            {
+                "label": "Adding data",
+                "value": "Added"
+            },
+            {
+                "label": "Finishing",
+                "value": "Done"
+            }
+        ],
+        "hex_value": null,
+        "issue_detected": false,
+        "issue": "The unit 'million/cumm' is commonly used for RBC count, giving it a high probability of accuracy. The value of 5.01 falls within the typical reference range of 4.5 to 5.5 million/cumm, which supports its accuracy. The reference range itself is standard for adult males and females, contributing to a high probability for its accuracy as well. Overall, the data appears to be accurate based on these factors.",
+        "nrr_type": "NumericRange",
+        "createdAt": "2025-03-06T07:41:50.045Z",
+        "updatedAt": "2025-03-06T07:46:53.929Z",
+        "__v": 11,
+        "biomarkersDynamics": [
+            {
+                "_id": "67c951becf6884d40df9a647",
+                "type": "biomarker",
+                "valueType": "string",
+                "userId": 205195,
+                "testResultUid": "e3bb239a-38e9-4c6c-ac84-2008ce63b638",
+                "biomarkerUid": "21463904-9ddc-4d2e-b316-9a357808d198",
+                "date": "2025-03-02T18:30:00.000Z",
+                "name": "",
+                "value": 5.01,
+                "original_value": 5.01,
+                "original_name": "RBC COUNT\nMethodology :\nElectrical Impedence",
+                "original_unit": "million/cumm",
+                "standard_unit": "×10¹²/L",
+                "standard_id": 24,
+                "visionId": 20,
+                "standard_unit_id": 50,
+                "unit": "",
+                "original_reference_range": "4.5 to 5.5",
+                "reference_range": null,
+                "reference_range_minimum": 4.5,
+                "reference_range_maximum": 5.5,
+                "reference_range_unit": null,
+                "explanation_out_of_range": null,
+                "explanation_general": "RBC count measures the number of red blood cells in a volume of blood. Red blood cells are responsible for carrying oxygen from the lungs to the rest of the body and returning carbon dioxide from the body to the lungs for exhalation.",
+                "out_of_range": null,
+                "out_direction": "",
+                "matched": false,
+                "reported": false,
+                "steps": [
+                    {
+                        "label": "Detecting biomarker",
+                        "value": 1,
+                        "id": "detected"
+                    },
+                    {
+                        "label": "Extracting biomarker",
+                        "value": "RBC COUNT",
+                        "id": "name"
+                    },
+                    {
+                        "label": "Checking biomarker",
+                        "value": "Checked",
+                        "id": "check"
+                    },
+                    {
+                        "label": "Making unit readable",
+                        "value": "undefined",
+                        "id": "value"
+                    },
+                    {
+                        "label": "Making value readable",
+                        "value": "million/cumm",
+                        "id": "unit"
+                    },
+                    {
+                        "label": "Matching unit",
+                        "value": "Name:×10¹²/L, ID: 50 . \nThe unit 'million/cumm' is equivalent to '×10¹²/L' as both represent the concentration of cells in a given volume of blood. 'cumm' stands for cubic millimeter, and 1 million cells per cubic millimeter is equivalent to 1 × 10¹² cells per liter."
+                    },
+                    {
+                        "label": "Setting range type",
+                        "value": "NumericRange"
+                    },
+                    {
+                        "label": "Setting range",
+                        "value": "min:  4.5, max: 5.5",
+                        "id": "range"
+                    },
+                    {
+                        "label": "Preparing matching",
+                        "value": "Ready for matching"
+                    },
+                    {
+                        "label": "Matching biomarker",
+                        "value": 24
+                    },
+                    {
+                        "label": "Rechecking unit..",
+                        "value": "First step unit match was correct.",
+                        "id": "final"
+                    },
+                    {
+                        "label": "Adding data",
+                        "value": "Added"
+                    },
+                    {
+                        "label": "Finishing",
+                        "value": "Done"
+                    }
+                ],
+                "hex_value": null,
+                "issue_detected": false,
+                "issue": "The unit 'million/cumm' is commonly used for RBC count, giving it a high probability of accuracy. The value of 5.01 falls within the typical reference range of 4.5 to 5.5 million/cumm, which supports its accuracy. The reference range itself is standard for adult males and females, contributing to a high probability for its accuracy as well. Overall, the data appears to be accurate based on these factors.",
+                "nrr_type": "NumericRange",
+                "createdAt": "2025-03-06T07:41:50.045Z",
+                "updatedAt": "2025-03-06T07:46:53.929Z",
+                "__v": 11
+            }
+        ],
+        "globalBiomarker": {
+            "_id": "66ac9f1dbe3d908c5f523c1c",
+            "id": 24,
+            "title": "RBC",
+            "synonyms": [
+                {
+                    "_id": "67c9bf4ecf6884d40dfafca0",
+                    "title": "Red blood cell count",
+                    "language": "EN",
+                    "id": "67c9bf4ecf6884d40dfafca0"
+                },
+                {
+                    "_id": "67c9bf4ecf6884d40dfafca1",
+                    "title": "Erythrocyte Count",
+                    "language": "EN",
+                    "id": "67c9bf4ecf6884d40dfafca1"
+                },
+                {
+                    "_id": "67c9bf4ecf6884d40dfafca2",
+                    "title": "RBC Count",
+                    "language": "EN",
+                    "id": "67c9bf4ecf6884d40dfafca2"
+                },
+                {
+                    "_id": "67c9bf4ecf6884d40dfafca3",
+                    "title": "Erc count",
+                    "language": "EN",
+                    "id": "67c9bf4ecf6884d40dfafca3"
+                },
+                {
+                    "_id": "67c9bf4ecf6884d40dfafca4",
+                    "title": "Red cell count (RCC)",
+                    "language": "EN",
+                    "id": "67c9bf4ecf6884d40dfafca4"
+                }
+            ],
+            "possibleValueMax": 10000000,
+            "possibleValueMin": 2000000,
+            "isAllowAutounit": false,
+            "biomaterialId": 2,
+            "displayCategoryId": 79,
+            "pregnancyCorrelation": 4,
+            "sortOrder": 3917,
+            "isPaid": true,
+            "articleId": 24,
+            "unitsFactors": [
+                [
+                    49,
+                    1
+                ],
+                [
+                    50,
+                    1000000
+                ],
+                [
+                    83,
+                    1000000
+                ],
+                [
+                    121,
+                    1
+                ],
+                [
+                    136,
+                    1000000
+                ],
+                [
+                    48,
+                    1000
+                ]
+            ],
+            "availableUnits": {
+                "unitId49": {
+                    "id": 49,
+                    "coefficient": 1
+                },
+                "unitId50": {
+                    "id": 50,
+                    "coefficient": 1000000
+                },
+                "unitId83": {
+                    "id": 83,
+                    "coefficient": 1000000
+                },
+                "unitId121": {
+                    "id": 121,
+                    "coefficient": 1
+                },
+                "unitId136": {
+                    "id": 136,
+                    "coefficient": 1000000
+                },
+                "unitId48": {
+                    "id": 48,
+                    "coefficient": 1000
+                }
+            },
+            "unitIds": [
+                49,
+                50,
+                83,
+                121,
+                136,
+                48
+            ],
+            "standard_id": 24,
+            "units": [
+                {
+                    "_id": "66f2fcd1fc79fb27d79f7663",
+                    "id": 49,
+                    "title": "units/mcL",
+                    "valueType": 1
+                },
+                {
+                    "_id": "66f2fcd1fc79fb27d79f7664",
+                    "id": 50,
+                    "title": "×10¹²/L",
+                    "synonymsString": "×10¹²/L,  Tera/L ",
+                    "valueType": 1
+                },
+                {
+                    "_id": "66f2fcd1fc79fb27d79f767e",
+                    "id": 83,
+                    "title": "×10⁶/mcL",
+                    "synonymsString": "×10⁶/mcL, ×10⁶/uL, ×10⁶/µL, Mega/mcL, Mega/uL, Mega/µL",
+                    "valueType": 1
+                },
+                {
+                    "_id": "66f2fcd1fc79fb27d79f76a3",
+                    "id": 121,
+                    "title": "units/mm³",
+                    "synonymsString": "units/mm³",
+                    "valueType": 1
+                },
+                {
+                    "_id": "66f2fcd1fc79fb27d79f76af",
+                    "id": 136,
+                    "title": "×10⁶/mm³",
+                    "synonymsString": "×10⁶/mm³",
+                    "valueType": 1
+                },
+                {
+                    "_id": "66f2fcd1fc79fb27d79f7662",
+                    "id": 48,
+                    "title": "×10³/mm³",
+                    "synonymsString": "×10³/mm³, Kunits/mm³",
+                    "valueType": 1
+                }
+            ]
+        }
+    }
+}
